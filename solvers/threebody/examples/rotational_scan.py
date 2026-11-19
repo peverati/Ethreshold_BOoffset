@@ -20,7 +20,7 @@ from threebody import symmetric_family, family_threshold
 from threebody.rotational import convergence_table_L, optimize_scales
 
 OUT = sys.argv[1] if len(sys.argv) > 1 else os.path.join(os.path.dirname(__file__), "..", "..", "..",
-                                                         "paper1", "rotational")
+                                                         "paper_data", "rotational")
 MASSES = [float(x) for x in sys.argv[2:]] or [1.0, 2.0, 3.0, 5.0, 7.0, 10.0, 15.0, 20.0, 30.0, 50.0, 100.0,
                                               206.768283, 500.0, 1000.0, 1836.15267343]
 CASES = [(0, "S"), (1, "A"), (2, "S"), (1, "S")]

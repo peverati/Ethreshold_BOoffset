@@ -29,7 +29,7 @@ from threebody.threshold import diffuse_index
 L = int(sys.argv[1])
 SYM = sys.argv[2]
 OUT = sys.argv[3] if len(sys.argv) > 3 else os.path.join(os.path.dirname(__file__), "..", "..", "..",
-                                                         "paper1", "rotational")
+                                                         "paper_data", "rotational")
 M_BO = {(1, "A"): 5.5374983484, (2, "S"): 12.7397228380}[(L, SYM)]
 LOG = open(os.path.join(OUT, f"critical_L{L}{SYM}.txt"), "a")
 

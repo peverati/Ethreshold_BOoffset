@@ -23,7 +23,7 @@ from threebody import symmetric_family
 from threebody.rotational import convergence_table_L, format_table_L
 
 OUT = sys.argv[1] if len(sys.argv) > 1 else os.path.join(os.path.dirname(__file__), "..", "..", "..",
-                                                         "paper1", "thresholds_Lv")
+                                                         "paper_data", "thresholds_Lv")
 M_P06 = 1836.15267247
 AL = (9.95811007, 9.95811007, 1.42227562)
 REF = {0: -0.597139063079392297758, 1: -0.5968737387847130778, 2: -0.5963452054891147, 3: -0.5955576389803092}

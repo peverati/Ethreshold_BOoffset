@@ -2,7 +2,7 @@
 
 *Last updated: 2026-11-17 20:42*
 
-> **Mass constants (2026-11-17):** Paper 1 quotes physical-mass values at CODATA 2022 (m_p/m_e = 1836.152673426, m_μ/m_e = 206.7682827); they are in `paper1/codata2022/` (README, results.csv) and `solvers/threebody/results/codata2022/`. Examples and tables in this README that name other masses (CODATA 2018 1836.15267343, 206.768283; CODATA 2010 1836.15267245, 206.7682843, used for the King et al. comparison and called "CODATA 2012" in older notes) are kept as documentation of those runs; they differ from the CODATA 2022 values only in the last digits.
+> **Mass constants (2026-11-17):** Paper 1 quotes physical-mass values at CODATA 2022 (m_p/m_e = 1836.152673426, m_μ/m_e = 206.7682827); they are in `paper_data/codata2022/` (README, results.csv) and `solvers/threebody/results/codata2022/`. Examples and tables in this README that name other masses (CODATA 2018 1836.15267343, 206.768283; CODATA 2010 1836.15267245, 206.7682843, used for the King et al. comparison and called "CODATA 2012" in older notes) are kept as documentation of those runs; they differ from the CODATA 2022 values only in the last digits.
 
 Non-relativistic, non-Born-Oppenheimer, total L = 0 states of three particles
 with arbitrary masses and charges (in particular the {X+, X+, e-} family:
@@ -234,10 +234,10 @@ to about 1e−12, is 4e−11 too high. A different proton mass would not explain
 dE/dM ≈ 1e−6 per electron mass, so the shift would be negligible. **This is an
 open discrepancy at the 1e−10 level.** Check it against a trusted reference
 before relying on digits beyond the tenth.
-**Mass constants (2026-11-13):** every physical-mass value in this README (H₂⁺, Mu₂⁺) uses CODATA 2012, m_p = 1836.15267245 and m_μ = 206.7682843 (as King et al. 2013); the Tang et al. validation (§ L > 0) keeps their own m_p = 1836.15267247. Values were recomputed in `paper1/codata2012/`; fixed-basis sequences are shifted by the first-order mass effect (Mu₂⁺ −6.04e−11, H₂⁺ +1.62e−12). The saved files in `results/` (`h2plus.txt`, `validation.txt`, `scan_*.csv`) still hold the earlier CODATA-2018 values. For H₂⁺ L=1,2 only 10 digits are quoted because the recomputed values come from an extrapolation of error up to 4.5e−11.
+**Mass constants (2026-11-13):** every physical-mass value in this README (H₂⁺, Mu₂⁺) uses CODATA 2012, m_p = 1836.15267245 and m_μ = 206.7682843 (as King et al. 2013); the Tang et al. validation (§ L > 0) keeps their own m_p = 1836.15267247. Values were recomputed in `paper_data/codata2012/`; fixed-basis sequences are shifted by the first-order mass effect (Mu₂⁺ −6.04e−11, H₂⁺ +1.62e−12). The saved files in `results/` (`h2plus.txt`, `validation.txt`, `scan_*.csv`) still hold the earlier CODATA-2018 values. For H₂⁺ L=1,2 only 10 digits are quoted because the recomputed values come from an extrapolation of error up to 4.5e−11.
 **Resolved (2026-11-13):** the remembered value is
 correct for the older proton mass 1836.152701 (this solver gives −0.5971390631232 there,
-`paper1/king2013`). The argument above was wrong: the mass difference of 2.8e−5 m_e times
+`paper_data/king2013`). The argument above was wrong: the mass difference of 2.8e−5 m_e times
 dE/dM ≈ 1.5e−6 gives exactly the 4e−11 shift. See also the L > 0 validation section below.
 Other internal checks (all pass): exact separable limits; mass-scaling identity;
 relabelling invariance; Cartesian-Laplacian and quadrature verification of the
@@ -432,7 +432,7 @@ observables), `tests/test_angular.py` (8 tests), `examples/rotational_validation
 `examples/rotational_compare.py`. A generated cache `threebody/_cache/angular_terms_v1.pkl`
 holds the sympy-derived term lists (safe to delete; rebuilt in ~5 s for L = 1, ~40 s
 for L = 2). Existing modules are unchanged except this README; the default S-state
-behaviour is untouched. Results and logs: `paper1/rotational/`.
+behaviour is untouched. Results and logs: `paper_data/rotational/`.
 
 ### Formulation
 Relative vectors a = x0 − x2, b = x1 − x2 (particle 2 = electron for {X,X,e}, nucleus for He).
@@ -498,7 +498,7 @@ e, C = b.solve(symmetric_family(50.0), nstates=2)
 diffuse blocks for near-threshold states, as in `examples/rotational_critical.py`).
 `symmetry=None` gives the unsymmetrized basis for non-identical particles (all T_i, V_ij stored).
 
-### Validation (paper1/rotational/validation_*.txt)
+### Validation (paper_data/rotational/validation_*.txt)
 References checked online on 2026-11-13. He: G. W. F. Drake and A. T. Bondy,
 arXiv:2606.00814, Table 1 (infinite nuclear mass). H2+: arXiv:1407.1973 (Hylleraas,
 fully non-adiabatic), Table 1, m_p = 1836.15267247 (CODATA 2006); it agrees with
@@ -521,7 +521,7 @@ spaces, monotonic convergence).
 All variational values lie above the references, as they must. Virial ratio −V/T = 2 to
 5e−10 (He) and 1e−11 (H2+). The H2+ (0,0) agreement (2.6e−13) also **resolves the open
 question of §5**: the remembered −0.597139063123 is the correct value for an older proton
-mass, m_p = 1836.152701 (this solver gives −0.5971390631232 there; `paper1/king2013`); the
+mass, m_p = 1836.152701 (this solver gives −0.5971390631232 there; `paper_data/king2013`); the
 verified reference at the CODATA-2006 mass 1836.15267247 is −0.597139063079392. The mass
 matters at this level: the 5e−10 relative difference between 1836.15267247 and the
 1836.15267343 (CODATA 2018, used in an earlier version of §5) shifts E by about −1.5e−12 (dE/dlnM ≈ −0.0028). §5 and the tables below now use the CODATA-2012 mass 1836.15267245, at which this solver gives −0.5971390630793, within 1e−13 of the Tang et al. value.
@@ -536,7 +536,7 @@ sympy) at random configurations for every particle and component pair, L = 1, 2 
 with three different scales; S ∪ A spectrum = unsymmetrized spectrum; hermiticity and
 linearity in 1/M.
 
-### Rotational critical masses (paper1/rotational/critical_*.txt, *.json)
+### Rotational critical masses (paper_data/rotational/critical_*.txt, *.json)
 Mass at which the lowest L = 1 ('A') and L = 2 ('S') state first lies below E_th = −M/(2(M+1)).
 Method: fixed basis (mass-independent matrices), Brent root of E_0(M) − E_th(M). Basis: one
 compact total-degree block (scales optimized for root 0 near the crossing) plus nested
@@ -557,10 +557,10 @@ centrifugal barrier (lambda = L >= 1); the quadratic fit printed at the end of
 `rotational_critical.py` is not used (it is biased by the far points).
 Both L = 1 and L = 2 of the ground manifold are bound only for M > 11.4894: below that the
 "rotational tower" does not exist (L = 1 alone for 4.208 < M < 11.489; neither below 4.208,
-which includes Ps⁻-like M = 1). For comparison (paper1/RESULTS_SUMMARY.md) the first
+which includes Ps⁻-like M = 1). For comparison (paper_data/RESULTS_SUMMARY.md) the first
 vibrational excitation (L = 0, 2nd 'S' state) appears at M = 9.5256.
 
-### Mass scan of the rotational levels (paper1/rotational/scan_L.csv, rotational_table.txt, fig_rotational.png)
+### Mass scan of the rotational levels (paper_data/rotational/scan_L.csv, rotational_table.txt, fig_rotational.png)
 Lowest two roots of L=0 'S', L=1 'A', L=2 'S' (and L=1 'S' for M <= 10). Scales: optimized
 for L=0 and L=1 root 0 (N_opt = 12, or 16 with weights (1,1,2) for M > 150); L=2 reuses the
 L=1 scales. Sequences N = 14, 18, 21 (M < 150) or 24, 28, 32 with weights (1,1,2).
@@ -601,7 +601,7 @@ The L = 3, 4 terms are in `_cache/angular_terms_v1.pkl` (one-time sympy cost ~15
 Tests (6 new, all pass; full suite 38 passed in 9.5 min): weighted contraction = full 3^L contraction from an
 independent detracer formula (L = 3, 4); S + A = unsymmetrized spectrum (L = 3, 4); pointwise kinetic integrand
 (L = 3); second-order-form quadrature (L = 3).
-Validation (`examples/rotational_validation_L34.py`, output `paper1/thresholds_Lv/validation_h2p_L34.txt`):
+Validation (`examples/rotational_validation_L34.py`, output `paper_data/thresholds_Lv/validation_h2p_L34.txt`):
 H2+ (0, 3), N = 28: E - ref = +1.2e-11 (extrapolated +1.2e-12) vs Tang et al. 2014; (0, 4): -3.1e-9 below a
 J = 0..3 Dunham interpolation of the same table, consistent with the neglected x^4 term (no verified literature
 value for (0, 4) in hand). Basis sizes: L = 3 two channels, L = 4 three channels per block (S or A).

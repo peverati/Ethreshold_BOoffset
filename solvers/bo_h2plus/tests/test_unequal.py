@@ -10,7 +10,7 @@ from bo_h2plus import unequal as UQ
 from bo_h2plus.adiabatic import D_of_R
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-SCHWENKE = os.path.join(HERE, "..", "..", "..", "paper1", "bo_offset", "massfunc", "literature_data",
+SCHWENKE = os.path.join(HERE, "..", "..", "..", "paper_data", "bo_offset", "massfunc", "literature_data",
                         "schwenke2001_EPAPS_h2p_tab.txt")
 
 

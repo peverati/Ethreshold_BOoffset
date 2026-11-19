@@ -3,7 +3,7 @@ Data licence
 Copyright (c) 2026 Roberto Peverati
 
 All data and result files in this repository (in particular the .csv, .json,
-.txt, .npz, .md result documents and the figures in paper1/) are licensed under
+.txt, .npz, .md result documents and the figures in paper_data/) are licensed under
 the Creative Commons Attribution 4.0 International licence (CC BY 4.0).
 
 You are free to share and adapt the material for any purpose, provided that you

@@ -2,7 +2,7 @@
 
 *Last updated: 2026-11-17 20:42*
 
-> **Mass constants (2026-11-17):** Paper 1 quotes physical-mass values at CODATA 2022 (m_p/m_e = 1836.152673426, m_μ/m_e = 206.7682827); they are in `paper1/codata2022/` (README, results.csv) and `solvers/threebody/results/codata2022/`. Examples and tables in this README that name other masses (CODATA 2018 1836.15267343, 206.768283; CODATA 2010 1836.15267245, 206.7682843, used for the King et al. comparison and called "CODATA 2012" in older notes) are kept as documentation of those runs; they differ from the CODATA 2022 values only in the last digits.
+> **Mass constants (2026-11-17):** Paper 1 quotes physical-mass values at CODATA 2022 (m_p/m_e = 1836.152673426, m_μ/m_e = 206.7682827); they are in `paper_data/codata2022/` (README, results.csv) and `solvers/threebody/results/codata2022/`. Examples and tables in this README that name other masses (CODATA 2018 1836.15267343, 206.768283; CODATA 2010 1836.15267245, 206.7682843, used for the King et al. comparison and called "CODATA 2012" in older notes) are kept as documentation of those runs; they differ from the CODATA 2022 values only in the last digits.
 
 This package computes the **Born-Oppenheimer (BO) prediction** for the three-particle Coulomb family made of two identical positive particles of mass M (in electron masses) and one electron, for any M. Examples: M = 1836.15267245 (CODATA 2012) is H2+; M of about 1 is a Ps⁻-like system, where BO is not meaningful but still well defined. All quantities are in atomic units unless a name ends in `_cm`.
 
@@ -185,5 +185,5 @@ sqrt(m_eff) at successive thresholds is spaced by about 1.55, as WKB predicts. T
 exact threshold −μ_Be/2), the exact linear map λ = M_eff/μ_e = 2rM/(1+r) + 2r/(1+r)² (`lam_of_M`, `M_of_lam`),
 the electron kinetic ⟨p²⟩ from the virial theorem, and the 1sσg/2pσu coupling functions (D_u, t_g, t_u,
 ⟨g|∂_z|u⟩, k_gu; `gu_functions`, cached table `_cache/gu_v1.npz`, rebuilt in ~30 s). Theory and use:
-`paper1/unequal_masses/THEORY.md`. Tests: `tests/test_unequal.py` (9 tests: hypervirial, virial, asymptotic
+`paper_data/unequal_masses/THEORY.md`. Tests: `tests/test_unequal.py` (9 tests: hypervirial, virial, asymptotic
 atomic reduced-mass eigenvalues, DBOC vs Schwenke 2001 HD+ table to 1e-3).

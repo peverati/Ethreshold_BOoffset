@@ -1,7 +1,7 @@
 """Unequal nuclear masses {A+, B+, e-}: masses, thresholds, and the 1s sigma_g / 2p sigma_u coupling functions.
 
 Added 2026-11-16 (new module; nothing else in bo_h2plus was changed).  Theory and conventions:
-paper1/unequal_masses/THEORY.md.  Summary:
+paper_data/unequal_masses/THEORY.md.  Summary:
 
 Nuclear masses m_A = M, m_B = r M (r >= 1: B is the heavier nucleus), electron mass 1.  Jacobi coordinates:
 R = R_B - R_A, rho = electron relative to the nuclear centre of mass (no mass-polarization term).

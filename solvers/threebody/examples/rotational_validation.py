@@ -22,7 +22,7 @@ from threebody import helium_like, symmetric_family
 from threebody.rotational import convergence_table_L, format_table_L, optimize_scales
 
 OUT = sys.argv[2] if len(sys.argv) > 2 else os.path.join(os.path.dirname(__file__), "..", "..", "..",
-                                                         "paper1", "rotational")
+                                                         "paper_data", "rotational")
 REF_HE = {"S": [-2.123843086498101], "A": [-2.133164190779283]}
 M_P06 = 1836.15267247
 REF_H2P = {0: [-0.597139063079392, -0.587155679164695], 1: [-0.596873738784713, -0.586904320919192],

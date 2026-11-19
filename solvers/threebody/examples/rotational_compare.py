@@ -14,7 +14,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(HERE, "..", ".."))  # solvers/
 from bo_h2plus import solve_levels  # noqa: E402
 
-OUT = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "..", "..", "..", "paper1", "rotational")
+OUT = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "..", "..", "..", "paper_data", "rotational")
 CM = 219474.6313632
 
 

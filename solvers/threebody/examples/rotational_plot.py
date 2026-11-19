@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt  # noqa: E402
 import numpy as np  # noqa: E402
 
 OUT = sys.argv[1] if len(sys.argv) > 1 else os.path.join(os.path.dirname(__file__), "..", "..", "..",
-                                                         "paper1", "rotational")
+                                                         "paper_data", "rotational")
 MC1, MC2 = 4.2082827, 11.4894217
 rows = list(csv.DictReader(open(os.path.join(OUT, "rotational_table.csv"))))
 f = lambda k: np.array([float(r[k]) for r in rows])

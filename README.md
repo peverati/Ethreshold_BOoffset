@@ -54,7 +54,7 @@ BLAS threads: the solvers limit themselves by default (4 threads for `threebody`
     cd solvers/harmonic_model && python3 -m pytest -q tests
     cd paper1/figures_final   && python3 summary_values.py && python3 make_figures.py && python3 make_tables.py
 
-Each line starts from the repository root. The three test suites take about a minute in all (`bo_h2plus` builds and caches its tables on the first run).
+Each line starts from the repository root. Run times on an Apple-silicon laptop: `harmonic_model` (49 tests) about 5 s, `bo_h2plus` (44) about 15 s (it builds and caches its tables on the first run), `threebody` (38) about 25 min.
 
 `summary_values.py` compares every number quoted in the figures and tables with the result files.
 

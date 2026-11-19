@@ -2,7 +2,7 @@
 
 *Last updated: 2026-11-16 08:02*
 
-**STATUS: DONE (run 4 finished 2026-11-15; results in `RESULT.md`, the source of truth).** Set up 2026-11-15 (Paper 1, items 9 and 10); progress and every short test are logged in `PROGRESS.md`.
+**STATUS: DONE (run 4 finished 2026-11-15; results in `RESULT.md`, the source of truth).** Set up 2026-11-15; what was seen before the freeze is in `FREEZE_NOTES.md`.
 
 Results (exact M_c; certified upper bound in RESULT.md):
 * J1v1: 17.0942819(10), quote 17.094282(1) (frozen prediction 17.1072 +- 0.0295, exact - pred -0.0129, PASS)
@@ -30,7 +30,7 @@ with even J is 'S'. 2p sigma_u with J=1 is 'S', and with J=0 it is 'A' (L=0).
 
 Literature and consistency checks:
 * J1v1: Frolov & Wardlaw (arXiv:1008.3010; EPJD 63, 339 (2011)) find (J=1, v=1) bound up to m_mu ~ 214.72 m_e, i.e.
-  M_c ~ 3670.483/214.718 = 17.0944. This is a basis-limited upper estimate; our converged value is 1.6e-4 lower (docs/literature/frolov_2025_2026_notes.md).
+  M_c ~ 3670.483/214.718 = 17.0944. This is a basis-limited upper estimate; our converged value is 1.6e-4 lower (Frolov, arXiv:2503.17389 (2025)).
 * L3A: ttmu (M = 26.585) has a bound J=3 v=0 level; ppmu (8.880) and ddmu (17.752) do not. So
   17.752 < M_c(J=3) < 26.585. The BO+ad value 21.64 is consistent with this.
 * L1S: in BO the 2p sigma_u curve is repulsive at short range. It has a shallow polarization well,
@@ -135,10 +135,10 @@ command after a crash. Single target: `THREEBODY_BLAS_THREADS=8 python3 paper1/t
   larger. The bounds are rigorous regardless.
 * L1S: the BO value has no adiabatic correction, and the exact basis choice is new (only a feasibility test).
   Treat the result as exploratory until the compact and diffuse checks converge.
-* The J1v1 scale optimization ran 4 min before the prediction was frozen. It computed no crossing (PROGRESS.md).
+* The J1v1 scale optimization ran 4 min before the prediction was frozen. It computed no crossing (`FREEZE_NOTES.md`).
 
 
-**Data note (2026-11-16, main session):** `L1S_binding.csv` was computed with the N=10+5 basis, but its x column is measured from M* = 813.6015 (the N=12+5 crossing). Harmless for the exploratory L1S result; keep in mind when plotting.
+**Data note (2026-11-16):** `L1S_binding.csv` was computed with the N=10+5 basis, but its x column is measured from M* = 813.6015 (the N=12+5 crossing). Harmless for the exploratory L1S result; keep in mind when plotting.
 
 
-**Muonic validation (2026-11-16, main session, user request):** `muonic_check.py` -> `muonic_check.csv`, `muonic_check.log`. Direct solves at Frolov 2025's mass ratios reproduce his dd-mu (1,1), dd-mu (2,0) and tt-mu (2,0) binding energies to all printed digits (relative 1-3e-7; compact N = 16, 18, 20 identical to 1e-12). tt-mu (1,1): 8.034498e-3 m.a.u. (45.21 eV).
+**Muonic validation (2026-11-16):** `muonic_check.py` -> `muonic_check.csv`, `muonic_check.log`. Direct solves at Frolov 2025's mass ratios reproduce his dd-mu (1,1), dd-mu (2,0) and tt-mu (2,0) binding energies to all printed digits (relative 1-3e-7; compact N = 16, 18, 20 identical to 1e-12). tt-mu (1,1): 8.034498e-3 m.a.u. (45.21 eV).

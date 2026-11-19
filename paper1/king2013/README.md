@@ -4,7 +4,7 @@
 
 Written 2026-11-13. This folder checks our exact three-body solver (`solvers/threebody`, perimetric-Laguerre basis, used unchanged) against all ground-state energies of the symmetric family {m1, m1, m3} in King et al. (Table III: 42 finite-mass rows plus infinite-mass H⁻, 43 in all; Table II: 2856-term benchmarks and their "literature" column). It also locates the minimum of their marker g = (E0 − E_th)/E_th without fitting.
 
-Source: I read the paper itself (CC BY, Sussex figshare, plus the Publisher's Note), not only `docs/literature/closest_papers_notes.md`. The notes list 19 of the rows. The paper has 43 (42 finite masses plus ∞H⁻).
+Source: the paper itself (CC BY, Sussex figshare) and its Publisher's Note. Table III has 43 rows (42 finite masses plus ∞H⁻).
 
 ## Files
 
@@ -23,7 +23,7 @@ Source: I read the paper itself (CC BY, Sussex figshare, plus the Publisher's No
 | `comparison_table3.csv`, `comparison_table2.csv` | ours − theirs, row by row |
 | `results.txt` | all printed results of `analyze.py` |
 | `fig_g_comparison.png` | (a) g(M) ours and theirs; (b) the minimum region, with the dense grid, their points, our minimum, their 0.491 ± 0.003 band and the Eq. 9 fit minimum; (c) relative difference \|ours − theirs\|, their last certain digit, and our error estimate vs M |
-| `run_log.txt`, `log_*.txt`, `PROGRESS.md` | logs |
+| `run_log.txt`, `log_*.txt` | logs |
 
 Regenerate with `export THREEBODY_BLAS_THREADS=3; python compute.py table; python compute.py fine; python compute.py minimum; python compute.py extra; python compute.py lit; python analyze.py`, using `python3`. Wall time was about 1.5 h with two processes on a loaded machine.
 

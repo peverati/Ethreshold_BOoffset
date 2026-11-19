@@ -49,7 +49,7 @@ CRIT = [
 ]
 V4_PRED_MC = (98.2627, 0.0095)      # frozen 2026-11-14 17:22, PREDICTION.md (summary 1)
 # frozen 2026-11-15 20:17, thresholds_Lv/PREDICTION_J1v1.md (sha256 verified below); J1v1 primary,
-# L3/L4 secondary. Caveat (thresholds_Lv/PROGRESS.md): the J1v1 scale optimisation (stage 1, N=12)
+# L3/L4 secondary. Caveat (thresholds_Lv/FREEZE_NOTES.md): the J1v1 scale optimisation (stage 1, N=12)
 # ran 20:11-20:13, before the freeze; it computed no crossing.
 LV_PRED_MC = {"J1v1": (17.1072, 0.0295), "L3": (21.3818, 0.0295), "L4": (33.9175, 0.0295)}
 LV_FROZEN = "2026-11-15 20:17"
@@ -61,8 +61,8 @@ FW_11 = 17.09444
 
 # ---------------------------------------------------------------- muonic molecules (summary 1)
 # M = m_nucleus / m_mu (Frolov-Wardlaw masses), literature bound (J, v) levels (Frolov & Wardlaw,
-# arXiv:1008.3010 = EPJD 63, 339 (2011), via docs/literature/referee_check_2026-11-15.md Part B; same level
-# lists in Frolov arXiv:2503.17389 (2025), docs/literature/frolov_2025_2026_notes.md). Existence only.
+# arXiv:1008.3010 = EPJD 63, 339 (2011); same level
+# lists in Frolov arXiv:2503.17389 (2025)). Existence only.
 MUONIC = [
     dict(name=r"pp$\mu$", M=8.8802, lit={(0, 0), (1, 0)}),
     dict(name=r"dd$\mu$", M=17.7517, lit={(0, 0), (0, 1), (1, 0), (1, 1), (2, 0)}),
@@ -145,8 +145,8 @@ RUN5 = [
     dict(J=5, v=0, Mc=49.11537545, err=4.9e-6, best="49.115375144", safe="49.115380349", BO=50.318074, BOad=49.353402, pred=49.117289),
     dict(J=2, v=2, Mc=52.58916447, err=2.2e-9, best="52.589164468", safe="52.589164528", BO=53.968672, BOad=53.002721, pred=52.592031),
     dict(J=4, v=1, Mc=57.16494981, err=4.6e-7, best="57.164949070", safe="57.164949247", BO=58.421973, BOad=57.475700, pred=57.169673),
-    # 2026-11-19: (6,0) and (6,1) recomputed with the double-double assembly (threshold_map_L7hp/data_J6, PROGRESS.md);
-    # extrapolated from the two-diffuse sequences N = 8, 10, 12 (geometric ratios 0.14 and 0.04), user decision to
+    # 2026-11-19: (6,0) and (6,1) recomputed with the double-double assembly (threshold_map_L7hp/data_J6, J6_note.md);
+    # extrapolated from the two-diffuse sequences N = 8, 10, 12 (geometric ratios 0.14 and 0.04), author's decision to
     # accept rows flagged only by the conditioning flag (lambda_min/lambda_max -1e-16 to -4e-16; slope guard passed).
     dict(J=6, v=0, Mc=66.983717, err=1.0e-6, dd6=True, best="66.98371834", safe="66.983798633", BO=68.181554, BOad=67.215424, pred=66.984942),
     dict(J=3, v=2, Mc=69.01388864, err=2.3e-8, best="69.013888660", safe="69.013888822", BO=70.347388, BOad=69.393851, pred=69.017053),

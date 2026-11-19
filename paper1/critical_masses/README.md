@@ -117,7 +117,7 @@ At each M the lowest root over the ladder is taken. Each root is a Hylleraas-Und
 * `upper_bounds.csv`: crossings with margins 0, 1e−11 and 1e−10, at tol 1e−12 and 1e−10, with the slope at M*.
 * `fits_state{k}.txt`, `fig_state{k}.png`: fits and plots.
 * `basis_state{k}.json`: basis definition.
-* `run_log.txt`, `PROGRESS.md`: run log and working notes.
+* `run_log.txt`: run log.
 
 **Code** (all new files; no existing file was changed):
 
@@ -159,4 +159,4 @@ cd .. && python threebody/examples/critical_mass_bo.py ../paper1/critical_masses
 * **Ladder.** The near-threshold behaviour at x < 0.001 was not sampled, and the most diffuse ladder member (3e−5) is resolution-limited.
 * **Fixed compact scales.** These were optimized at a single M per state. Since E_k is converged to about 1e−13 this does not matter, but the scales were not re-optimized.
 * **Only S states with J = 0 and symmetric spatial exchange.** Antisymmetric states and J > 0 states were not studied.
-* **Literature (corrected 2026-11-16).** Frolov and co-workers located these thresholds earlier at lower precision: v=1 10.045, v=2 30.70, v=3 61.135 (Frolov, J. Phys. B 25, 3059 (1992)), 3 to 5.5% above ours. See docs/literature/frolov_1992_notes.md and paper1/RESULTS_SUMMARY.md (PRIORITY block).
+* **Literature (corrected 2026-11-16).** Frolov and co-workers located these thresholds earlier at lower precision: v=1 10.045, v=2 30.70, v=3 61.135 (Frolov, J. Phys. B 25, 3059 (1992)), 3 to 5.5% above ours. See `paper1/RESULTS_SUMMARY.md` (PRIORITY block).

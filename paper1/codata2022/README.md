@@ -2,11 +2,11 @@
 
 *Last updated: 2026-11-17 18:25*
 
-**Rule (user decision, 2026-11-17):** Paper 1 uses the most recent CODATA values (2022) throughout. Where we compare with King, Longford and Cox (2013) we use their CODATA-2012 masses and say so (`../king2013`, `../codata2012`). Other literature comparisons also stay at the masses of the work compared with: Frolov's muonic binding energies (his mass ratios) and the H₂⁺ rovibrational levels of Tang et al. (m_p = 1836.15267247).
+**Rule:** Paper 1 uses the most recent CODATA values (2022) throughout. Where we compare with King, Longford and Cox (2013) we use their CODATA-2012 masses and say so (`../king2013`, `../codata2012`). Other literature comparisons also stay at the masses of the work compared with: Frolov's muonic binding energies (his mass ratios) and the H₂⁺ rovibrational levels of Tang et al. (m_p = 1836.15267247).
 
 **Constants (NIST, CODATA 2022, read from physics.nist.gov on 2026-11-17):** m_p/m_e = 1836.152673426, m_μ/m_e = 206.7682827, m_d/m_e = 3670.482967655, m_t/m_e = 5496.92153551, m_α/m_e = 7294.29954171, 1 E_h = 219 474.63136314 cm⁻¹. Reference: CODATA 2022 adjustment (Mohr, Newell, Taylor, Tiesinga); check the bibliographic details before citing.
 
-## What was run (2026-11-17, 17:48–18:09, laptop; `scripts/codata2022_run.sh`, log `runs_codata2022.log`)
+## What was run (2026-11-17, laptop)
 * `scan.py` (copy of `../codata2012/scan.py`, masses changed in `common.py`): BO and BO+ad (`bo.csv`), exact L = 0 roots 0 and 1 with descriptors (`exact_L0.csv`, `data/`), exact L = 1 (A) and L = 2 (S) (`exact_rot.csv`), g(R) and CM densities. Same settings and extrapolation rule as before.
 * `entanglement/ent2022.py`: entanglement (modes exact, prevN, bo) and the body-frame entropy at the new masses, using `paper1/entanglement` unchanged; results here, the CODATA-2018 files there untouched.
 * `solvers/threebody/results/codata2022/`: validation tables, H₂⁺ convergence study, README mass scan.

@@ -60,7 +60,7 @@ def blind_check(d):
     if first and frozen != "?" and first < frozen:
         ok = False
         out.append("**WARNING: the exact run started before the prediction was frozen.**")
-    out.append("Short code tests of run_exact.py (2026-11-15, after the freeze) are listed in PROGRESS.md.")
+    out.append("Short code tests of run_exact.py (2026-11-15, after the freeze) are described in FREEZE_NOTES.md.")
     return ok, out, md
 
 

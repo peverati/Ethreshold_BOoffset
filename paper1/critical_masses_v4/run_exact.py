@@ -20,7 +20,7 @@ Stages (in priority order; every result row is appended + flushed at once, done 
   4 bounds      rounding-safe upper bounds, margins 0, 1e-11, 1e-10       -> upper_bounds.csv
 Log: run_log.txt.  Then: analyze.py (fits, error bar, comparison with PREDICTION.md, RESULT.md).
 
-Basis (justified by the short tests in PROGRESS.md):
+Basis (justified by short convergence tests):
   * 4 compact total-degree blocks, N = 16, scales (alpha_X, alpha_e):
       ground-state optimum at M = 100 (N = 12):            (4.472, 1.365)
       two intermediate sets (geometric in alpha_X):       (2.30, 1.25), (1.20, 1.15)

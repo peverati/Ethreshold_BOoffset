@@ -1,12 +1,12 @@
 """Direct solves at the physical muonic mass ratios (validation against Frolov 2025, arXiv:2503.17389).
 
-Written 2026-11-16 07:37 (main session, at the user's request). Binding E_th - E (units of the light-particle Hartree,
+Written 2026-11-16 07:37 . Binding E_th - E (units of the light-particle Hartree,
 i.e. muon atomic units for a+ a+ mu-) of
   (J,v) = (1,1): L = 1 'A', root 1, J1v1 bases (scales of J1v1_scales.json, 5 diffuse sets)
   (J,v) = (2,0): L = 2 'S', root 0, same compact scales, 3 diffuse sets
 at M = m_d/m_mu and m_t/m_mu as used by Frolov 2025 (17.751673, 26.584936; CODATA 2022 per the notes).
 Convergence: compact N = 16, 18, 20. Rows appended to muonic_check.csv (resumable).
-Frolov 2025 binding (recomputed from his total energies, docs/literature/frolov_2025_2026_notes.md):
+Frolov 2025 binding (recomputed from his total energies, arXiv:2503.17389):
   dd-mu (1,1) 3.510171e-4; dd-mu (2,0) 1.537261e-2; tt-mu (2,0) 3.069448e-2.
 """
 import csv, json, os, sys, time

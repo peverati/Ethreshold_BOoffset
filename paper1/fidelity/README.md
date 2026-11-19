@@ -86,4 +86,4 @@ At M = 1 (N = 28):
 | `analyze.py` | `fits.txt`, `fig1_chi_vs_M.png`, `fig2_dense_windows.png`, `fig3_largeM_convergence.png` |
 | `results.csv`, `dense.csv` | one row per mass: χ_F (perturbative and FD), χ_inv, χ_sep, the scalars ‖Dψ‖², ‖D_Rψ‖², ⟨Dψ|D_Rψ⟩, ⟨ψ̇|Dψ⟩, ⟨ψ̇|D_Rψ⟩ (all per ‖ψ‖²), checks, the same three χ at N − 4, the uniform-scaling test |
 | `data/dpsi_<key>.npz` | c and x (ψ and ψ̇ coefficients), α, N, weights: reuse without recomputation |
-| `PROGRESS.md`, `log_*.txt` | progress notes and run logs |
+| `log_*.txt` | run logs |

@@ -34,7 +34,7 @@ FROLOV = {(0, 1): (10.045, 10.05), (0, 2): (30.70, 30.75), (0, 3): (61.135, 61.1
           (1, 2): (39.375, 39.45), (2, 1): (27.715, 27.75), (2, 2): (53.295, 53.30)}
 FROLOV_ORDER = ["(0,0)", "(1,0)", "(0,1)", "(2,0)", "(1,1)", "(2,1)", "(0,2)", "(1,2)", "(2,2)", "(0,3)", "(1,3)"]
 MUONIC = {"pp mu": 8.880, "dd mu": 17.752, "tt mu": 26.585}   # m/m_mu, as in thresholds_Lv (dd, tt: Frolov 2025)
-# bound-level sets of the muonic molecular ions, verified 2026-11-16 against Frolov & Wardlaw, EPJD 63, 339 (2011) and Frolov, EPJD 66, 212 (2012) (docs/literature/frolov_muonic_1994_2019_notes.md); was: quoted from memory, to be checked against a
+# bound-level sets of the muonic molecular ions, verified 2026-11-16 against Frolov & Wardlaw, EPJD 63, 339 (2011) and Frolov, EPJD 66, 212 (2012); was: quoted from memory, to be checked against a
 # review, e.g. Ponomarev, Contemp. Phys. 31, 219 (1990))
 MUONIC_LIT = {"pp mu": {"(0,0)", "(1,0)"},
               "dd mu": {"(0,0)", "(0,1)", "(1,0)", "(1,1)", "(2,0)"},

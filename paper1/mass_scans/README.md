@@ -41,7 +41,7 @@ Every stage appends one row per mass and skips masses already present, so an int
 | `fig5_mass_derivatives.png` | −dE/dlnM and d²E/d(lnM)², exact / BO / BO+ad |
 | `fig6_spacings.png` | spacings, d₂/d₁ and vib/d₁, relative errors of BO and BO+ad |
 | `data/L0_M*.npz` | exact wave functions (roots 0, 1) at every M (threebody `Result.save` format) |
-| `run_log.txt`, `log_*.txt`, `PROGRESS.md` | logs and progress notes |
+| `run_log.txt`, `log_*.txt` | run logs |
 
 ## Method
 

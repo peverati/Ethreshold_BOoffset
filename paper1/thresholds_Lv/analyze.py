@@ -145,7 +145,7 @@ def main():
         okhash = want == have
         out += ["", "## Blind-test integrity", "",
                 f"* sha256(PREDICTION_J1v1.md) = {have}: {'matches' if okhash else 'DOES NOT MATCH'} prediction_J1v1.sha256.",
-                "* Frozen 2026-11-15 20:17. Caveat (PROGRESS.md): the J1v1 scale optimization (stage 1, N = 12) ran 20:11-20:13, "
+                "* Frozen 2026-11-15 20:17. Caveat (FREEZE_NOTES.md): the J1v1 scale optimization (stage 1, N = 12) ran 20:11-20:13, "
                 "before the freeze; it computed no crossing."]
     summary = []
     for t in TARGETS:

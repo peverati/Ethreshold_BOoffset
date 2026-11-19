@@ -18,7 +18,7 @@ DATA = os.path.join(HERE, "data")
 MARKERS = [(0.25, "Lindemann max"), (0.4924, "King g min"), (0.5, "E/mu max"), (0.543, "0.543"),
            (0.635, "CM density"), (1.11, "max T_X"), (1.4, "~1.4"), (4.21, "L=1 binds"),
            (9.53, "v=1 binds"), (11.49, "L=2 binds")]
-S_OR_INF = 0.249338007   # electronic_l_weights(R_e = 1.99719), converged to 1e-8 (PROGRESS.md)
+S_OR_INF = 0.249338007   # electronic_l_weights(R_e = 1.99719), converged to 1e-8
 R_E = 1.99719
 
 

@@ -39,7 +39,7 @@ pkill -f massfunc_run.sh; pkill -f massfunc/run.py
 | default | 650 (0.02–60 bohr; step 0.02 up to R = 10) | 0 and 1 (value = level 1) | about 8–10 min | < 1 GB |
 | `--fine` | 2597 (4× denser) | 1 and 2 (value = level 2) | about 3 h (`--dry` estimate 172 min) | about 1.5 GB |
 
-The calculation is much cheaper than the brief anticipated (0.1–2 s per R). The default run is therefore shorter than 30 min. The test results below show that it is already converged to ≤ 1e−10. `--fine` mostly buys a denser grid and larger-basis cross-checks; it does not change the physics. Threads: `MASSFUNC_THREADS` (default 4).
+The calculation is much cheaper than anticipated (0.1–2 s per R). The default run is therefore shorter than 30 min. The test results below show that it is already converged to ≤ 1e−10. `--fine` mostly buys a denser grid and larger-basis cross-checks; it does not change the physics. Threads: `MASSFUNC_THREADS` (default 4).
 
 ## Outputs
 
@@ -98,5 +98,4 @@ The calculation is much cheaper than the brief anticipated (0.1–2 s per R). Th
 * `analyze.py`: analysis.
 * `test_massfunc.py`: tests.
 * `THEORY.md`: derivation.
-* `PROGRESS.md`: step log.
 * Launcher: `scripts/massfunc_run.sh`.

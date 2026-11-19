@@ -11,7 +11,7 @@ Targets (key: L, exchange symmetry, root k):
     L3A  : L = 3, 'A', k = 0   (1s sigma_g J=3 v=0)
     L4S  : L = 4, 'S', k = 0   (1s sigma_g J=4 v=0)
     L1S  : L = 1, 'S', k = 0   (2p sigma_u J=1; BO M_c = 815.56): fixed compact scales, the level is
-           carried by 5 diffuse sets (atom x X-atom relative motion); feasibility test in PROGRESS.md.
+           carried by 5 diffuse sets (atom x X-atom relative motion); feasibility tested before production.
 
 Run from the project root (BLAS threads: THREEBODY_BLAS_THREADS, default 8):
     python3 paper1/thresholds_Lv/run_exact.py --target J1v1            # all stages

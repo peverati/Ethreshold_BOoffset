@@ -2,8 +2,8 @@
 
 *Last updated: 2026-11-16 12:49*
 
-**STATUS: SET UP, NOT RUN.** Production is launched by the user (`scripts/paper1_run5.sh`). Progress, short tests
-and honesty notes: `PROGRESS.md`. Results will appear in `RESULT.md` (written by `analyze_map.py` after every target).
+**STATUS: DONE.** Results are in `RESULT.md` (written by `analyze_map.py` after every target); what was seen before the
+predictions were frozen is in `FREEZE_NOTES.md`. Level (7,0) and the final (6,0), (6,1) values come from `../threshold_map_L7hp/`.
 
 ## What and why
 
@@ -105,7 +105,7 @@ check), so convergence in N is slower at high L and the crossings converge from 
 bounds); (ii) `run_map.py` now logs lam_min/lam_max of every basis and raises on a spurious root (E_0 - E_th < -0.15),
 so a noise root can never produce a fake crossing.
 
-## Short tests (after the freeze; NOT results; machine loaded by another agent's run, load 10-70)
+## Short tests (after the freeze; NOT results; machine loaded by another run, load 10-70)
 
 | test | basis | size (kept) | build | project + 1 solve | max RSS | observation |
 |---|---|---|---|---|---|---|
@@ -163,6 +163,6 @@ Plan of a target without computing: `run_map.py --target J1v2 --dry --nocal`.
   sets. Extrapolation errors will be larger than for J1v1/L3A/L4S; the crossings stay rigorous upper bounds.
 * J2v1 scales were optimized at N_opt = 12 (the first test), the others at 10 (L <= 2) or 8 (L >= 3).
 * The prediction band (+/- 0.0295) is the largest calibration residual, applied uniformly; all six L > 0 calibration
-  residuals were negative (PROGRESS.md), so systematic failures, if any, are expected on the low side for low L, high v.
+  residuals were negative (`FREEZE_NOTES.md`), so systematic failures, if any, are expected on the low side for low L, high v.
 * The muonic bound-level sets in `analyze_map.py` are quoted from memory (standard facts) and should be checked against
   a review before quoting.

@@ -35,7 +35,7 @@ Each solver folder has its own README with the method, the validation and the te
 
 Further folders support the ESI: `king2013/` (comparison with King, Longford and Cox), `codata2012/` and `codata2022/` (mass constants), `fidelity_models/` and `mullerherold/` (solvable models), `rotational/` (J > 0 validation).
 
-**Pre-specified predictions.** The parameter-free predictions of the threshold offsets were frozen before the exact calculations; the frozen files (`PREDICTION_*.md`, `prediction_*.json`) and their SHA-256 hashes are in `critical_masses_v4/`, `thresholds_Lv/`, `threshold_map/` and `unequal_masses/`.
+**Pre-specified predictions.** The parameter-free predictions of the threshold offsets were frozen before the exact calculations; the frozen files (`PREDICTION_*.md`, `prediction_*.json`) and their SHA-256 hashes are in `critical_masses_v4/`, `thresholds_Lv/`, `threshold_map/` and `unequal_masses/`. The frozen files are byte-identical to the versions hashed at the time; `FREEZE_NOTES.md` in each folder records what had and had not been computed before each freeze.
 
 ## Requirements and installation
 
@@ -60,7 +60,6 @@ Each line starts from the repository root. Run times on an Apple-silicon laptop:
 
 ## Notes
 
-* Some READMEs refer to project documents (paths starting with `docs/`) or to day-by-day work logs (`PROGRESS.md`) that are not part of this repository. They are working notes; every number used in the paper is in the result files here, and the per-run logs are included.
 * Large production runs (threshold maps) took hours to days on 8–20 cores; their outputs are included, so no calculation needs to be repeated to check the paper.
 
 ## Licence

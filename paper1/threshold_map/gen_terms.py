@@ -1,7 +1,7 @@
 """Generate (once) the sympy term lists of natural-parity L sectors into the LOCAL cache (tb_local.py).
 
 Written 2026-11-16 (threshold_map).  One-time cost, single core (sympy): L = 4 took ~15 min in thresholds_Lv;
-L = 5, 6, 7 are measured in PROGRESS.md.  Run from the project root:
+L = 5, 6, 7 were measured in short tests.  Run from the project root:
     python3 paper1/threshold_map/gen_terms.py 6
 Building a 1-function basis per L and symmetry triggers every term list the coupled basis needs
 (operators S, T01, T2, V01, V02+V12 between all channel pairs c, d and c, Pd).

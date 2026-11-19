@@ -118,7 +118,7 @@ def table2():
         "(2.3 decades, width 5.34 in ln M); ground-state markers 0.2–1.11 span 0.32 widths (summary §7); "
         "including the fidelity marker 1.39 they span 0.36 widths; literature-proposed 0.4–0.98 span 0.17.",
         "Sources: paper1/mass_scans/, paper1/king2013/, paper1/fidelity/, paper1/entanglement/, "
-        "paper1/crossover_width/, docs/literature/closest_papers_notes.md; summary §2, §7–9, §12, §13.",
+        "paper1/crossover_width/; RESULTS_SUMMARY.md §2, §7–9, §12, §13.",
     ]
     return write("T2", "Crossover markers of the atom-to-molecule change", header, rows, notes,
                  colspec="l p{5.2cm} p{4.4cm} p{2.0cm} l")
@@ -158,9 +158,8 @@ def table3():
         "energy with M; absence rests on the extrapolated M_c (lower side not rigorous). Smallest margins: present "
         f"({min(mpres)[1][0]},{min(mpres)[1][1]}) in {min(mpres)[2]} ({100 * min(mpres)[0]:.1f}% above M_c), absent ({min(mabs)[1][0]},{min(mabs)[1][1]}) in "
         f"{min(mabs)[2]} ({100 * min(mabs)[0]:.1f}% below M_c).",
-        "Literature: Frolov & Wardlaw, EPJD 63, 339 (2011), arXiv:1008.3010 (via docs/literature/"
-        "referee_check_2026-11-15.md, Part B); the same level counts (2, 5, 6 bound states) are restated in Frolov, "
-        "arXiv:2503.17389 (2025) (docs/literature/frolov_2025_2026_notes.md). M = m_nucleus/m_μ with their masses.",
+        "Literature: Frolov & Wardlaw, EPJD 63, 339 (2011), arXiv:1008.3010; the same level counts (2, 5, 6 bound "
+        "states) are restated in Frolov, arXiv:2503.17389 (2025). M = m_nucleus/m_μ with their masses.",
     ]
     return write("T3", "Muonic molecular ions: level existence predicted from our thresholds", header, rows, notes,
                  colspec="llp{3.3cm}p{3.3cm}p{2.6cm}lp{2.0cm}")

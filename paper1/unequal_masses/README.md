@@ -2,8 +2,8 @@
 
 *Last updated: 2026-11-16 12:21*
 
-**STATUS: set up, predictions FROZEN, exact production run NOT started (the user launches it).**
-Progress and every short test: `PROGRESS.md`. Theory: `THEORY.md`. Prediction: `PREDICTION_UNEQUAL.md`.
+**STATUS: DONE.** Results: `RESULT.md`. Theory: `THEORY.md`. Frozen prediction: `PREDICTION_UNEQUAL.md`; what was seen
+before the freeze: `FREEZE_NOTES.md`.
 
 ## Why this family
 In the symmetric family {X+, X+, e-} the non-adiabatic offsets M_c(BO+ad) − M_c(exact) are almost constant
@@ -59,8 +59,7 @@ Lenient criterion (also frozen): |exact − theory| ≤ 0.10. Theory − null di
 predicted offsets from BO+ad change by −2.32, −2.13, −1.70 between consecutive v (persistence predicts 0).
 
 ## Earlier estimates (BF92)
-Added 2026-11-16 after reading Bishop and Frolov, J. Phys. B 25, 3049 (1992) in full (notes: `docs/literature/frolov_1992_notes.md`,
-Section 7.3). Their Tables 3-8 give low-precision thresholds of the lowest P and D levels for unequal nuclear masses (700 or 800
+Added 2026-11-16 after reading Bishop and Frolov, J. Phys. B 25, 3049 (1992) in full. Their Tables 3-8 give low-precision thresholds of the lowest P and D levels for unequal nuclear masses (700 or 800
 exponential functions, no error bars; each threshold is an estimate between a tabulated bound and a tabulated unbound point). With
 m_Z = m_e and m_X = 2 m_Y = 2 lambda (Tables 3 and 4; our r = 2 with the light-nucleus mass M = lambda, mapping assumed, to be
 checked against their definitions):

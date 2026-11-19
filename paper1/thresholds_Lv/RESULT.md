@@ -7,7 +7,7 @@ Written by `analyze.py` from the run_exact.py CSV files. Crossings M* of fixed b
 ## Blind-test integrity
 
 * sha256(PREDICTION_J1v1.md) = 551b8f2899a56b9056eaac6a42ea8d6b48e78eb22fcfc6235d156ddb5853e887: matches prediction_J1v1.sha256.
-* Frozen 2026-11-15 20:17. Caveat (PROGRESS.md): the J1v1 scale optimization (stage 1, N = 12) ran 20:11-20:13, before the freeze; it computed no crossing.
+* Frozen 2026-11-15 20:17. Caveat (FREEZE_NOTES.md): the J1v1 scale optimization (stage 1, N = 12) ran 20:11-20:13, before the freeze; it computed no crossing.
 
 ## (J=1, v=1): L=1 'A', root 1
 

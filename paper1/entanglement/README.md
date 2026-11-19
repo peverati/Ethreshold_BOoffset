@@ -89,7 +89,7 @@ Trace out the electron. The X–X axis is then left with orientational coherence
 Three points follow.
 1. **D(180°) = 1 exactly at every M.** There are only even l, so the electron cannot distinguish R̂ from −R̂; this is the homonuclear exchange symmetry.
 2. **The decoherence of the axis by its own electron saturates as M grows** (D → 0.94 rather than → 0). It is set by the anisotropy of σg at R_e, not by the mass.
-3. **The internal electron does not localize the molecular axis.** Making the axis classical in the J = 0 ground state would require an external environment (collisions, radiation, a field). This is consistent with `docs/literature/decoherence_notes.md`: the "emergence of orientation" is not internal. Conversely, the orientational entanglement is largest (and D smallest) near M ≈ 0.4–0.5, where the system is least molecule-like.
+3. **The internal electron does not localize the molecular axis.** Making the axis classical in the J = 0 ground state would require an external environment (collisions, radiation, a field). The "emergence of orientation" is therefore not internal. Conversely, the orientational entanglement is largest (and D smallest) near M ≈ 0.4–0.5, where the system is least molecule-like.
 
 ### 3. Large-M (BO) behaviour
 
@@ -178,7 +178,7 @@ I know of **no published value** for the R|ρ (Jacobi) electron–nuclear entang
 | `fig2_largeM_scaling.png` | log–log against κ, with κ and κ² guides |
 | `fig3_orientation.png` | D(Θ) for selected M; w_l against l |
 | `fig4_convergence.png` | quadrature, basis and l-tail errors |
-| `PROGRESS.md`, `log_*.txt` | progress notes and run logs |
+| `log_*.txt` | run logs |
 
 ## Limitations
 
@@ -187,5 +187,5 @@ I know of **no published value** for the R|ρ (Jacobi) electron–nuclear entang
 * There is no independent check of the radial M → 0 limit.
 * The BO-product comparison carries a P(R) interpolation error of about 5e−4.
 
-## Body-frame check against Sanz-Vicario et al. PRA 96, 022503 (2017) (added 2026-11-13, main session)
+## Body-frame check against Sanz-Vicario et al. PRA 96, 022503 (2017) (added 2026-11-13)
 `bodyframe.py`: reduced density of the scalar |R| with the orientation traced out, Gamma = sum_l (2l+1) A_l A_l^T / tot. H2+ (M = 1836.15267343): S_vN = 0.047954 bits = 0.033239 nats, S_L = 0.010466, lambda_1 = 0.99474; base vs fine grid agree to 2e-8 bits. Sanz-Vicario et al. (their m_p = 1836.152673, energy 6.6e-5 above exact): 0.0479102 bits, S_L = 0.0104556. Agreement 0.1%. Results in `results_bodyframe.csv`.

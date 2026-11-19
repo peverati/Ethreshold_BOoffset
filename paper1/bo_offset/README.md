@@ -97,6 +97,5 @@ For L = 0, f_rad = 1 + |δλ_ad|/λ = 1.097, 1.033, 1.017 (the 1/λ part arises 
 * `offset_table.py`: the test table. Output: `offset_table.csv`.
 * `rot_mass_data.csv`: m_r(M) from exact and BO+ad J-spacings (exact from `mass_scans/exact_rot.csv`, BO+ad from `mass_scans/bo.csv`).
 * `kappa6.md`, `kappa6_data.csv`, `fit_kappa6.py`, `kappa6_fits.csv`: Task B (the κ⁶ coefficient).
-* `PROGRESS.md`: step log.
 
 Run from the repo root with `python3 paper1/bo_offset/<script>.py`. Total runtime is under 2 minutes.

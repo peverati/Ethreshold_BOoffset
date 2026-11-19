@@ -3,7 +3,7 @@
 *Last updated: 2026-11-13 19:36*
 
 Files: `derive_mh.py` (sympy re-derivation), `compare.py` (table, quadrature, pointwise density check; imports
-`solvers/harmonic_model` read-only), `PROGRESS.md`. Run with `python3`.
+`solvers/harmonic_model` read-only). Run with `python3`.
 
 ## 1. Re-derivation of his critical relation (Sec. III)
 Jacobi: r1 = q2-q1, r2 = q3-(q1+q2)/2, r3 = CM; q1 = -r1/2 - (m_u/M) r2, M = 2m_e+m_u, mu = 2 m_e m_u/M.

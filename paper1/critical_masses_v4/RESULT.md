@@ -8,7 +8,7 @@ Written by `analyze.py` from the output of `run_exact.py`. Fits: `fits_state4.tx
 
 * sha256(PREDICTION.md) = 11b446096db3fff83b1b3aa4ee85cf28ff65996a0984fc19e7e5ce2f5bc01e94 matches prediction.sha256: the prediction is unchanged.
 * PREDICTION.md frozen 2026-11-14 17:22; first production entry of run_log.txt: 2026-11-15 14:33.
-* Short code tests of run_exact.py (2026-11-15, after the freeze) are listed in PROGRESS.md.
+* Short code tests of run_exact.py (2026-11-15, after the freeze) are described in FREEZE_NOTES.md.
 
 ## Exact M_c (v = 4)
 

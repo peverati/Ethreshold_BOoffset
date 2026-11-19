@@ -4,7 +4,7 @@ Written 2026-11-15.  M = 1836.15267247 (CODATA 2006), weights (1, 1, 2), fixed s
 optimization of examples/rotational_validation.py (9.95811007, 9.95811007, 1.42227562).
 
 * L = 3 ('A'): (v=0, J=3) vs Tang, Yan, Shi, Babb, PRA 90, 012524 (2014), arXiv:1407.1973 Table 1
-  (verified online 2026-11-13, see paper1/rotational/PROGRESS.md): -0.5955576389803092(7).
+  (Tang et al., PRA 90, 012524 (2014), Table I): -0.5955576389803092(7).
 * L = 4 ('S'): no verified reference in hand.  Check: E(0,J) for J = 0..3 (same table) fixed by
   E = E0 + B x - D x^2 + H x^3, x = J(J+1) (exact interpolation), extrapolated to J = 4. The neglected
   next term contributes L' x(x-2)(x-6)(x-12) = 40320 L' at x = 20; with L' ~ H^2/D ~ 6.5e-14 that is

@@ -1,7 +1,7 @@
 # Literature comparison: nonadiabatic vibrational and rotational mass functions
 *Last updated: 2026-11-15 21:25*
 
-Written by an agent on 2026-11-15. Compares our m_v(R), m_r(R) (`results_fine.csv`, `THEORY.md`) with three papers read in full:
+Written 2026-11-15. Compares our m_v(R), m_r(R) (`results_fine.csv`, `THEORY.md`) with three papers read in full:
 
 * [BM] P. R. Bunker and R. E. Moss, Mol. Phys. **33**, 417 (1977), doi:10.1080/00268977700100351.
 * [BMM] P. R. Bunker, C. J. McLarnon and R. E. Moss, Mol. Phys. **33**, 425 (1977), doi:10.1080/00268977700100361.
@@ -124,7 +124,7 @@ If the shorter wording "follow, with no fitted parameter, from first-principles 
 
 > In Kutzelnigg's convention [109] (clamped-nuclei electronic Hamiltonian, 1/μ_vib = (2/M)(1 + A/M)), m_v = −A, with the same asymptote 1/2; his LCAO estimate at R_e is 0.31.
 
-**THEORY.md §5, last bullet** should be corrected in the same way (agent did not edit it, as instructed).
+**THEORY.md §5, last bullet** should be corrected in the same way.
 
 **Reference [109]** is already in the draft with [BM], Herman–Asgharian and [K]. Suggested additions, with data as printed in the PDFs read:
 * P. R. Bunker, C. J. McLarnon, R. E. Moss, Mol. Phys. **33**, 425 (1977), "Application of the effective vibration-rotation hamiltonian to H₂ and D₂", doi:10.1080/00268977700100361.
@@ -139,7 +139,7 @@ If the shorter wording "follow, with no fitted parameter, from first-principles 
 
 ## 7. Moss 1996 [M96]
 
-[M96] R. E. Moss, Mol. Phys. **89**, 195–210 (1996), "On the adiabatic and non-adiabatic corrections in the ground electronic state of the hydrogen molecular cation", doi:10.1080/002689796174083. Read in full (added 2026-11-15 by an agent; PDF `docs/literature/pdfs/Moss_MolPhys_89_195_1996.pdf`; Table 5 was read from a rendered page image because the text layer is rotated and garbled).
+[M96] R. E. Moss, Mol. Phys. **89**, 195–210 (1996), "On the adiabatic and non-adiabatic corrections in the ground electronic state of the hydrogen molecular cation", doi:10.1080/002689796174083. Read in full ( Table 5 was read from a rendered page image because the text layer is rotated and garbled).
 
 **What it computes.** [M96] computes **no mass functions**. It takes the exact non-adiabatic dissociation energies of all H₂⁺ levels (Moss, Mol. Phys. **80**, 1541 (1993): 462 levels, v ≤ 19, N ≤ 40, including quasibound ones; D₂⁺: 164 levels with N ≤ 5) and subtracts the "partitioned adiabatic" energies. This gives the non-adiabatic correction for every level (Table 4, printed to 0.001 cm⁻¹; maximum 1.3 cm⁻¹ near v = 10–11). It then fits the Bunker–Moss effective equation (his Eq. 11) to these numbers with **constant** μ_v, μ_r and a potential scale factor (1 + γ) (Tables 5, 6). He states that attempts to make the parameters R dependent failed because the extra parameters were highly correlated (p. 206). His closing suggestion (p. 208) is that "a suitable R dependence for the reduced masses" might remove the need for potential scaling. So R-dependent μ_v(R), μ_r(R) are named in [M96] as open, not computed. Other content: the adiabatic correction for every level (Table 1), a scaled-BO-potential model for it (Table 3), a critique of the Röhse et al. reduced-electron-mass recipe, and the isotope relations μ_v = μ_nuc/(1 + b/μ_nuc), μ_r = μ_nuc/(1 + a/μ_nuc) (Eqs. 13–14) tested by predicting D₂⁺ from H₂⁺.
 
@@ -176,7 +176,7 @@ So the second-order mass functions alone reproduce the exact non-adiabatic corre
 
 **Novelty verdict (honest).** Relative to [M96] our work is an **extension, not a reproduction**. Moss had the exact level-by-level non-adiabatic corrections, extracted only constant effective masses from them, explicitly failed to determine an R dependence, and named R-dependent reduced masses as future work. We evaluate the R-dependent Bunker–Moss functions directly from the exact BO wave function and show that, with no fitted parameter, they reproduce his entire Table 4. This also shows that the R dependence he could not fit is fully determined by second-order theory. What is still not ours: the formalism ([BM], Herman–Asgharian, Fisk–Kirtman), the qualitative shapes ([K]), the exact non-adiabatic energies (Moss 1993 and later). The remaining risk is post-1996 work not yet read, especially Jaquet and Kutzelnigg 2008 and Schwenke 2001 (Section 4; from memory, unverified). Either may tabulate accurate H₂⁺ mass functions. [K] (2007) does not cite any such tabulation and still calls an exact-wave-function treatment future work, which weakly suggests none existed before 2007.
 
-**Suggested wording for the draft (plain prose; the agent did not edit the draft).**
+**Suggested wording.**
 
 Replace "Accurate mass functions for H$_2^+$ may exist in later work that we have not yet checked (for example Moss [112]). The new element here is not the functions themselves but their accurate evaluation and their use..." by:
 
@@ -190,7 +190,7 @@ Replace the ref [112] note "(verified via Crossref; not yet read)" by:
 
 ## 8. Schwenke 2001 [S01]
 
-[S01] D. W. Schwenke, "A first principle effective Hamiltonian for including nonadiabatic effects for H2+ and HD+", J. Chem. Phys. **114**, 1693–1699 (2001), doi:10.1063/1.1334897. Read in full (added 2026-11-15 by an agent; PDF `docs/literature/pdfs/Schwenke_JCP_114_1693_2001.pdf`; Fig. 1 read from a 300 dpi render, Table I from the text layer and checked on the page).
+[S01] D. W. Schwenke, "A first principle effective Hamiltonian for including nonadiabatic effects for H2+ and HD+", J. Chem. Phys. **114**, 1693–1699 (2001), doi:10.1063/1.1334897. Read in full ( Fig. 1 read from a 300 dpi render, Table I from the text layer and checked on the page).
 
 **What it computes.** Exactly the object we compute, for H₂⁺ and HD⁺, and it is the first paper to do so (his words: to his knowledge the explicit Bunker–Moss expressions "have not been used to generate the effective Hamiltonian"). He keeps the full second-order Bunker–Moss operator without removing the first-derivative term (Eq. 15):
 
@@ -228,7 +228,7 @@ Over 17 points from 1.5 to 19.5 bohr: m_v differs by mean −0.0005 and max 0.00
 
 ## 9. Jaquet and Kutzelnigg 2008 [JK08]
 
-[JK08] R. Jaquet, W. Kutzelnigg, "Non-adiabatic theory in terms of a single potential energy surface. The vibration–rotation levels of H2+ and D2+", Chem. Phys. **346**, 69–76 (2008), doi:10.1016/j.chemphys.2008.02.068. Read in full (added 2026-11-15 by an agent; PDF `docs/literature/pdfs/JaquetKutzelnigg_ChemPhys_346_69_2008.pdf`; Tables 4–6 checked on the rendered pages, because the text layer drops all minus signs).
+[JK08] R. Jaquet, W. Kutzelnigg, "Non-adiabatic theory in terms of a single potential energy surface. The vibration–rotation levels of H2+ and D2+", Chem. Phys. **346**, 69–76 (2008), doi:10.1016/j.chemphys.2008.02.068. Read in full ( Tables 4–6 checked on the rendered pages, because the text layer drops all minus signs).
 
 **What it computes.** It implements Kutzelnigg's 2007 single-surface theory ([K], Section 3). The functions A(R) and B(R) of Eqs. (42)–(43) (same as [K] Eqs. 121–122) are evaluated with a **fixed** trial ω̃ built from model wave functions: simple LCAO (α = 1), Finkelstein–Horowitz (FH, LCAO with optimized exponent), and for B also FH plus a p polarization function (B(pol)). They also try two semi-empirical rescalings of B (M4, M5). They state that the results with FH "were so satisfactory that we did not care to go beyond this approximation", and that the best strategy for A and B "has probably not yet been found". The functions are closed-form LCAO expressions, **tabulated in Table 6** (R = 0.2–20 and 50 bohr, 86 points: A, B, B(pol) for H₂⁺, all printed negative). Nuclear motion uses the Kołos BO+adiabatic potential and a DVR grid (about 350 points, 0.1–50 bohr). Level tests: J = 0, 1 of H₂⁺ and D₂⁺ against Hilico et al. (2000) exact energies (Tables 1–3), and J = 0, 10, 20, 30 of H₂⁺ against Moss's non-adiabatic corrections [M96] (Tables 4–5).
 
@@ -265,7 +265,7 @@ Verdict: outcome **(a)**, nearly. Accurate second-order (Bunker–Moss) vibratio
 * **New (as far as these six papers go):** (1) the observation that in the μ_e-scaled convention one pair of functions serves the entire {X⁺,X⁺,e⁻} family, and its use, with no fitted parameter, to explain the near-constant BO offsets of the threshold critical masses (0.528, 0.512, 0.502 against 0.5375, 0.5062, 0.4970) and the κ⁶ coefficient; (2) the link between the hump of m_v(R) at 3–8 bohr and the effective m_v ≈ 0.49 required by the threshold offsets. Nothing in [BM], [BMM], [K], [M96], [S01] or [JK08] concerns critical masses or mass scaling across the family.
 * **Still not checked:** the EPAPS file of [S01] (needed for a sharper than graphical comparison, and to see his R grid); later ab initio work after 2008 (e.g. Pachucki–Komasa on H₂, Mátyus and Teufel 2019 on mass-correction functions; from memory, unverified), which may also contain accurate H₂⁺ functions; the cancellation between [S01]'s C_v and C terms in our partition.
 
-## 11. Suggested replacement wording for the draft (plain prose, no em dashes; the agent did not edit the draft)
+## 11. Suggested wording
 
 **Section 6.2, paragraph "Non-adiabatic mass functions".** Replace the sentence "Kutzelnigg [109] estimated them for H$_2^+$ with LCAO wave functions and wrote down, but did not solve, the exact defining equation." with:
 
@@ -297,17 +297,17 @@ Replace from "Moss [112] fitted constant effective ..." to the end of the paragr
 The note on ref. 109 ("comparison with our $m_v(R)$, $m_r(R)$ still to be made") is out of date: the comparison is in Sections 3, 8 and 9 here.
 
 
-## 12. Schwenke 2001 EPAPS tables (main session, 2026-11-15)
+## 12. Schwenke 2001 EPAPS tables (2026-11-15)
 
-The supplementary file (EPAPS E-JCPSA6-114-005105, `literature_data/schwenke2001_EPAPS_h2p_tab.txt`, supplied by the user) tabulates C_vv, C_v, C, C_rr for H2+ (aug-cc-pV5Z) at 33 R values from 0.5 to 200 bohr, and the same for HD+. `schwenke_epaps_compare.py` converts with m_v = -C_vv M^2, m_r = -C_rr M^2 R^2 (M = 1836.15267; the M he used is not printed) and compares with results_fine.csv (output `schwenke_epaps_compare.txt`):
+The supplementary file (EPAPS E-JCPSA6-114-005105, available from the journal; not redistributed here, place it at `literature_data/schwenke2001_EPAPS_h2p_tab.txt` to rerun the comparison) tabulates C_vv, C_v, C, C_rr for H2+ (aug-cc-pV5Z) at 33 R values from 0.5 to 200 bohr, and the same for HD+. `schwenke_epaps_compare.py` converts with m_v = -C_vv M^2, m_r = -C_rr M^2 R^2 (M = 1836.15267; the M he used is not printed) and compares with results_fine.csv (output `schwenke_epaps_compare.txt`):
 
 * agreement over 0.5-20 bohr: max |diff| 0.0025 (m_v, near the maximum at 6-7 bohr) and 0.0014 (m_r); median relative difference 0.16% (m_v) and 0.23% (m_r). Schwenke's m_v maximum 0.6581 at 6.0 bohr (ours 0.6603).
 * asymptote: Schwenke's functions level off at 0.4989 (both m_v and m_r, R = 100-200), 0.2% below the exact 1/2 (reduced mass of X+ and the atom); ours reach 0.50008 at R = 100 (decaying to 1/2 as R^-3). The constant 0.2% deficit at large R, where the exact value is known analytically, is consistent with a basis-set limit of his Gaussian sum-over-states (or with a slightly different M; a 0.1% smaller M would be needed, which is implausible). Our functions are converged to 3e-11 and reproduce the exact limit.
 * Verdict unchanged (Section 10): Schwenke has priority for accurate functions; ours are an independent recomputation that agrees to about 0.2% and is more precise (exact asymptote).
 
-## 13. Mátyus 2018 [EM18] (agent, 2026-11-15)
+## 13. Mátyus 2018 [EM18] (2026-11-15)
 
-[EM18] E. Mátyus, "Non-adiabatic mass correction to the rovibrational states of molecules: Numerical application for the H$_2^+$ molecular ion", J. Chem. Phys. **149**, 194111 (2018), doi:10.1063/1.5050401 (arXiv:1811.01186). Read in full (`docs/literature/pdfs/Matyus_JCP_149_194111_2018.pdf`; Fig. 1 and the rotated Table I checked on rendered pages). Companion: Paper II, J. Chem. Phys. **149**, 194112 (2018), on He$_2^+$ (not read). Numbers below from `matyus2018_compare.py`.
+[EM18] E. Mátyus, "Non-adiabatic mass correction to the rovibrational states of molecules: Numerical application for the H$_2^+$ molecular ion", J. Chem. Phys. **149**, 194111 (2018), doi:10.1063/1.5050401 (arXiv:1811.01186). Read in full. Companion: Paper II, J. Chem. Phys. **149**, 194112 (2018), on He$_2^+$ (not read). Numbers below from `matyus2018_compare.py`.
 
 **What it computes.** Most of the paper (Secs. II, III, V) is formal: the second-order non-adiabatic Hamiltonian of Panati–Spohn–Teufel (laboratory-frame Cartesian mass-correction tensor A_{ia,jb} = 2⟨∂ψ|(H−E)^{-1}(1−P)|∂ψ⟩, Eq. 5) is transformed to general curvilinear coordinates for use in the GENIUSH rovibrational program. For a homonuclear diatomic it reduces to δm_vib = A^ρ_ρ = B − b and δm_rot = A^Ω_Ω = A − a, entering as m_n → m_n + δm per nucleus (Eqs. 83–86). Numerics (Sec. IV, VI): floating ECGs with stochastic variational optimization (in-house QUANTEN code, electronic energy converged to < 0.1 μE_h); the resolvent is applied by a linear solve in an auxiliary ECG basis (Σg and Πu) with a complex shift ε = i·10⁻⁶ (a Sternheimer-type solve, not a sum over states); wave-function derivatives by finite differences (Cencek–Kutzelnigg rescaling). R range 0.1–100 bohr. Stated accuracy: non-adiabatic level corrections converged to < 0.005 cm⁻¹; a 10–20 μE_h error in ψ changes the mass functions by < 0.5%; the large-R vibrational function needs a large auxiliary basis. No error bar on the functions themselves.
 
@@ -328,7 +328,7 @@ Her m_r agrees with ours to her printed precision. Her m_v is 0.3% low at 3 bohr
 
 **Novelty verdict (update of Section 10).** [EM18] pre-empts more than [S01] in three respects: (1) an ab initio Sternheimer-type (resolvent by linear solve, not sum over states) evaluation of the H$_2^+$ functions over 0.1–100 bohr, i.e. the method class we use; (2) a full level-by-level test against Moss's table for all v ≤ 19, J ≤ 41, including quasibound levels, at a few 10⁻³ cm⁻¹, which is the same test as ours (ours is first order and covers only bound levels); (3) the identification of the two anomalous Moss entries. Our "minor additions" in Section 10 must therefore drop "the first-order mass-only test over all of Moss's Table 4" and "two probable misprints" as new items; at most we confirm them. What remains ours: an independent evaluation in a spheroidal basis with stated convergence (3×10⁻¹¹) and the exact asymptote, more precise than both [S01] (0.2% asymptotic deficit) and [EM18] (m_v 0.3% low at 3 bohr, functions not tabulated in the paper); and, unchanged, items (1) and (2) of Section 10 "New" (one pair of functions for the whole family in μ_e-scaled form; parameter-free account of the threshold offsets and the κ⁶ coefficient; the hump of m_v linked to the effective 0.49). Neither [S01] nor [EM18] touches critical masses or mass scaling. Still not checked: her supplementary values (would allow a 0.1% comparison over R), Paper II, Pachucki–Komasa 2009 (H2, same functions), Scherrer et al. PRX 2017.
 
-**Suggested wording for the draft (plain prose, no em dashes; the agent did not edit the draft).**
+**Suggested wording.**
 
 Section 6.2, replacing the sentence that credits Schwenke [113] (Section 11 above):
 

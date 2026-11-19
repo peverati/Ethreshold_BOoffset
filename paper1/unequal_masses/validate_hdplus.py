@@ -6,10 +6,10 @@ Run from the project root (~5-15 min, < 3 GB):
 Output: validation_hdplus.txt.
 
 References (both read from project files, not from memory):
-  * Bubin & Adamowicz program paper (docs/REFERENCES.md; masses from ATOM-MOL-nonBO/example_input/inout_1_1500.txt:
+  * Bubin & Adamowicz program paper (J. Chem. Phys. 152, 204102 (2020); masses from its example input inout_1_1500.txt:
     m_d = 3670.4829652, m_p = 1836.15267261): 1500 CECG, v=0 -0.597897968588, v=1 -0.589181829513
     (variational upper bounds).
-  * Baskerville et al. 2016 (docs/literature/closest_papers_notes.md; CODATA 2014 m_p = 1836.15267389,
+  * Baskerville et al. 2016 (CODATA 2014 m_p = 1836.15267389,
     m_d = 3670.48296785): p+d+e- -0.59789796860 ("all digits converged").
 """
 import os

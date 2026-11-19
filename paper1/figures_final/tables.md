@@ -50,7 +50,7 @@ Sources: paper1/critical_masses/, paper1/critical_masses_v4/, paper1/rotational/
 
 Status: located = extremum/zero located on our exact scan (smooth quantity; location uncertainty from the grid unless given); literature = value as published; converted = literature parameter converted to M by us, not recomputed; extrapolated = threshold-law fit (Table T1).
 Crossover width (local Lindemann exponent $f=-4\,d\ln\mathcal{L}/d\ln M$, $\mathcal{L}=\Delta R/\langle R\rangle$): $f$ = 0.1/0.5/0.9 at M = 0.455/1.52/95 (2.3 decades, width 5.34 in ln M); ground-state markers 0.2–1.11 span 0.32 widths (summary §7); including the fidelity marker 1.39 they span 0.36 widths; literature-proposed 0.4–0.98 span 0.17.
-Sources: paper1/mass_scans/, paper1/king2013/, paper1/fidelity/, paper1/entanglement/, paper1/crossover_width/, docs/literature/closest_papers_notes.md; summary §2, §7–9, §12, §13.
+Sources: paper1/mass_scans/, paper1/king2013/, paper1/fidelity/, paper1/entanglement/, paper1/crossover_width/; RESULTS_SUMMARY.md §2, §7–9, §12, §13.
 
 ### T3. Muonic molecular ions: level existence predicted from our thresholds
 
@@ -62,7 +62,7 @@ Sources: paper1/mass_scans/, paper1/king2013/, paper1/fidelity/, paper1/entangle
 
 Predictions use our thresholds (Tables T1, T4): (0,1) M > 9.525634; (0,2) M > 29.63939; (1,0) M > 4.2082827; (1,1) M > 17.094282; (2,0) M > 11.4894217; (2,1) M > 27.69724706; (3,0) M > 21.376199; (4,0) M > 33.914349; (0,0) is bound at every M. Odd J are the exchange-antisymmetric levels (L 'A'), even J the symmetric ones (L 'S'). Every level in the three ions, and the absent (0,2) and (4,0), is now compared with a computed threshold: 24/24 statements agree. Closest threshold: smallest relative distance |M/M_c − 1|; all distances exceed the uncertainty of M_c (≤ 1e-5 relative) by orders of magnitude.
 Status: level existence only (no energies compared). Presence of a level rests on the numerically certified upper bound (a bound state exists at that mass) together with the observed monotone growth of the binding energy with M; absence rests on the extrapolated M_c (lower side not rigorous). Smallest margins: present (1,1) in ddμ (3.8% above M_c), absent (2,1) in ttμ (4.0% below M_c).
-Literature: Frolov & Wardlaw, EPJD 63, 339 (2011), arXiv:1008.3010 (via docs/literature/referee_check_2026-11-15.md, Part B); the same level counts (2, 5, 6 bound states) are restated in Frolov, arXiv:2503.17389 (2025) (docs/literature/frolov_2025_2026_notes.md). M = m_nucleus/m_μ with their masses.
+Literature: Frolov & Wardlaw, EPJD 63, 339 (2011), arXiv:1008.3010; the same level counts (2, 5, 6 bound states) are restated in Frolov, arXiv:2503.17389 (2025). M = m_nucleus/m_μ with their masses.
 
 ### T4. Threshold map: blind test of the non-adiabatic offset theory on 14 new levels of $\{X^+,X^+,e^-\}$$^a$
 

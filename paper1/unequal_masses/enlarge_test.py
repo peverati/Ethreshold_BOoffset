@@ -1,4 +1,4 @@
-"""Diffuse-basis enlargement test for the L = 0 unequal-mass targets (written 2026-11-16, Mac Studio).
+"""Diffuse-basis enlargement test for the L = 0 unequal-mass targets (written 2026-11-16).
 
 Why: the r = 1 check R1J0v1 gave 9.5873 (production basis) vs the symmetric exact 9.525634, and the production
 "diffuse enlarged" variant (n_c + 2, n_d + 20 on all diffuse blocks) dropped it to 9.5590.  Hypotheses:

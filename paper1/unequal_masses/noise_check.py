@@ -1,4 +1,4 @@
-"""Build-to-build noise of E_k - E_th at genuine J0v1 crossings (written 2026-11-16, Mac Studio).
+"""Build-to-build noise of E_k - E_th at genuine J0v1 crossings (written 2026-11-16).
 
 Rebuilds "compact N=16 + diffuse alpha_s" (alpha_s = 1e-3, 1e-4) at its recorded crossing mass and prints
 gap = E_1 - E_th at M*(1 - 1e-3), M*, M*(1 + 1e-3).  Rounding perturbation = BLAS thread count (results are

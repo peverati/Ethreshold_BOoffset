@@ -61,7 +61,7 @@ def config(name):
     * N_D: the largest even N such that the biggest check basis (N_D + 2 with all diffuse sets) stays <= SIZE_CAP;
       compact sequence N_D - 4 .. N_D + 2 (nested).
     * scale optimization: N_opt = 10 for L <= 2, 8 for L >= 3 (cost: N = 12 for L = 2 took 1441 s for 70 evaluations on
-      a loaded machine; J2v1 itself was optimized at N = 12 during the short test, see PROGRESS.md); M_opt = BO+ad M_c + dM, with
+      a loaded machine; J2v1 itself was optimized at N = 12 during the short test, not a result); M_opt = BO+ad M_c + dM, with
       dM = 0 for k <= 1 (as before) and 0.03 M for k >= 2 (root k must be bound in the small basis).
     """
     L, k = int(name[1:].split("v")[0]), int(name.split("v")[1])

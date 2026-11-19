@@ -1,0 +1,44 @@
+2026-11-19 09:59:57 === --dry J6v0: L=6 sym=S root k=0; BO 68.181554, BO+ad 67.215424; bracket (65.71542424876672, 67.51542424876672); N_opt 8 M_opt 67.2154; Ns (6, 8, 10, 12) ND 10 diffuse 2; threads 8
+2026-11-19 10:01:24 calibration: compact N=10, size 2038: build 85.5s, project+1 solve 2.1s
+2026-11-19 10:01:24   N= 6 + 0 diffuse: size    604 (4 ch) est    0.1 min x1, memory ~0.0 GB
+2026-11-19 10:01:24   N= 8 + 0 diffuse: size   1180 (4 ch) est    0.6 min x1, memory ~0.1 GB
+2026-11-19 10:01:24   N=10 + 0 diffuse: size   2038 (4 ch) est    2.1 min x1, memory ~0.4 GB
+2026-11-19 10:01:24   N=12 + 0 diffuse: size   3234 (4 ch) est    6.4 min x1, memory ~1.0 GB
+2026-11-19 10:01:24   N=10 + 1 diffuse: size   3598 (4 ch) est    8.3 min x1, memory ~1.2 GB
+2026-11-19 10:01:24   N=10 + 2 diffuse: size   5638 (4 ch) est   25.7 min x4, memory ~3.1 GB
+2026-11-19 10:01:24   N= 8 + 2 diffuse: size   4780 (4 ch) est   16.9 min x1, memory ~2.2 GB
+2026-11-19 10:01:24   N=12 + 2 diffuse: size   6834 (4 ch) est   42.4 min x1, memory ~4.5 GB
+2026-11-19 10:01:24 TOTAL estimated 3.29 h (excl. stage 1 scales); peak size 6834, peak memory ~4.5 GB (12 n^2 doubles)
+2026-11-19 10:01:45 === run_map.py --target J6v0 stages=[2, 3, 4, 5] threads=8
+2026-11-19 10:01:53 stage2 compact N=6: size=604 kept=574 lam_min/lam_max=-6.1e-18 ortho_err=1.8e-02 tol=1e-14 margin=0 M*=66.9840854538 gap_below=nan (1s; build 7s)
+2026-11-19 10:02:22 stage2 compact N=8: size=1180 kept=1072 lam_min/lam_max=-1.5e-17 ortho_err=3.2e-02 tol=1e-14 margin=0 M*=66.9837315076 gap_below=nan (2s; build 28s)
+2026-11-19 10:03:51 stage2 compact N=10: size=2038 kept=1757 lam_min/lam_max=-2.0e-17 ortho_err=6.5e-02 tol=1e-14 margin=0 M*=66.9837187694 gap_below=nan (5s; build 84s)
+2026-11-19 10:09:02   WARNING spurious/ill-conditioned: compact N=12 tol=1e-14 margin=0 M*=66.9837173095 rejected (gap_lo +4.590e-05, gap_hi -4.588e-05, lam_min/lam_max -1.6e-16)
+2026-11-19 10:09:02 stage2 compact N=12: size=3234 kept=2669 lam_min/lam_max=-1.6e-16 ortho_err=5.7e-02 tol=1e-14 margin=0 M*=nan gap_below=nan (17s; build 294s)
+2026-11-19 10:09:02 stage 2 finished (437s)
+2026-11-19 10:13:35 stage3 compact N=10 + 1 diffuse: size=3598 kept=2865 lam_min/lam_max=-2.7e-17 ortho_err=4.3e-02 tol=1e-14 margin=0 M*=66.9837183443 gap_below=nan (20s; build 253s)
+2026-11-19 10:24:32   WARNING spurious/ill-conditioned: compact N=10 + 2 diffuse tol=1e-14 margin=0 M*=66.9837186131 rejected (gap_lo +1.703e-05, gap_hi -4.588e-05, lam_min/lam_max -2.2e-16)
+2026-11-19 10:24:32 stage3 compact N=10 + 2 diffuse: size=5638 kept=3925 lam_min/lam_max=-2.2e-16 ortho_err=3.7e-02 tol=1e-14 margin=0 M*=nan gap_below=nan (62s; build 595s)
+2026-11-19 10:24:33 stage 3 finished (930s)
+2026-11-19 10:35:50   WARNING spurious/ill-conditioned: compact N=10 + 2 diffuse tol=1e-14 margin=1e-11 M*=66.9837186277 rejected (gap_lo +1.703e-05, gap_hi -4.588e-05, lam_min/lam_max -2.2e-16)
+2026-11-19 10:35:50 stage4 compact N=10 + 2 diffuse: size=5638 kept=3925 lam_min/lam_max=-2.2e-16 ortho_err=3.7e-02 tol=1e-14 margin=1e-11 M*=nan gap_below=nan (90s; build 587s)
+2026-11-19 10:36:52   WARNING spurious/ill-conditioned: compact N=10 + 2 diffuse tol=1e-12 margin=0 M*=66.9837985332 rejected (gap_lo +1.779e-05, gap_hi -4.587e-05, lam_min/lam_max -2.2e-16)
+2026-11-19 10:36:52 stage4 compact N=10 + 2 diffuse: size=5638 kept=3617 lam_min/lam_max=-2.2e-16 ortho_err=6.1e-04 tol=1e-12 margin=0 M*=nan gap_below=nan (62s; build 587s)
+2026-11-19 10:37:27   WARNING spurious/ill-conditioned: compact N=10 + 2 diffuse tol=1e-12 margin=1e-11 M*=66.9837985478 rejected (gap_lo +1.779e-05, gap_hi -4.587e-05, lam_min/lam_max -2.2e-16)
+2026-11-19 10:37:27 stage4 compact N=10 + 2 diffuse: size=5638 kept=3617 lam_min/lam_max=-2.2e-16 ortho_err=6.1e-04 tol=1e-12 margin=1e-11 M*=nan gap_below=nan (35s; build 587s)
+2026-11-19 10:44:44   WARNING spurious/ill-conditioned: compact N=8 + 2 diffuse tol=1e-14 margin=0 M*=66.9837287123 rejected (gap_lo +1.696e-05, gap_hi -4.588e-05, lam_min/lam_max -1.2e-16)
+2026-11-19 10:44:44 stage4 compact N=8 + 2 diffuse: size=4780 kept=3313 lam_min/lam_max=-1.2e-16 ortho_err=4.0e-02 tol=1e-14 margin=0 M*=nan gap_below=nan (48s; build 389s)
+2026-11-19 11:03:05   WARNING spurious/ill-conditioned: compact N=12 + 2 diffuse tol=1e-14 margin=0 M*=66.9837171667 rejected (gap_lo +1.715e-05, gap_hi -4.588e-05, lam_min/lam_max -1.6e-16)
+2026-11-19 11:03:05 stage4 compact N=12 + 2 diffuse: size=6834 kept=4759 lam_min/lam_max=-1.6e-16 ortho_err=4.4e-02 tol=1e-14 margin=0 M*=nan gap_below=nan (136s; build 964s)
+2026-11-19 11:03:06 stage 4 finished (2313s)
+2026-11-19 11:13:14 stage5 M=67.01721020 E_th-E_k=2.294004e-05 (30s)
+2026-11-19 11:13:17 stage5 M=67.05070206 E_th-E_k=4.587490e-05 (3s)
+2026-11-19 11:13:20 stage5 M=67.11768578 E_th-E_k=9.172845e-05 (3s)
+2026-11-19 11:13:22 stage5 M=67.31863694 E_th-E_k=2.291580e-04 (3s)
+2026-11-19 11:13:25 stage5 M=67.65355553 E_th-E_k=4.577593e-04 (2s)
+2026-11-19 11:13:27 stage5 M=68.32339271 E_th-E_k=9.132074e-04 (2s)
+2026-11-19 11:13:30 stage5 M=70.33290426 E_th-E_k=2.264299e-03 (3s)
+2026-11-19 11:13:32 stage5 M=73.68209018 E_th-E_k=4.459762e-03 (2s)
+2026-11-19 11:13:35 stage5 M=80.38046201 E_th-E_k=8.620493e-03 (3s)
+2026-11-19 11:13:35 stage 5 finished (629s)
+2026-11-19 11:13:35 ALL REQUESTED STAGES DONE (4310s)

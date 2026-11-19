@@ -1,0 +1,41 @@
+2026-11-16 10:05:46 === --dry J3v1: L=3 sym=A root k=1; BO 42.355695, BO+ad 41.408480; bracket (39.908480477678125, 41.70848047767812); N_opt 8 M_opt 41.4085; Ns (10, 12, 14, 16) ND 14 diffuse 3; threads 8
+2026-11-16 10:05:46   N=10 + 0 diffuse: size   1144 (2 ch), memory ~0.1 GB
+2026-11-16 10:05:46   N=12 + 0 diffuse: size   1820 (2 ch), memory ~0.3 GB
+2026-11-16 10:05:46   N=14 + 0 diffuse: size   2720 (2 ch), memory ~0.7 GB
+2026-11-16 10:05:46   N=16 + 0 diffuse: size   3876 (2 ch), memory ~1.4 GB
+2026-11-16 10:05:46   N=14 + 1 diffuse: size   3500 (2 ch), memory ~1.2 GB
+2026-11-16 10:05:46   N=14 + 2 diffuse: size   4520 (2 ch), memory ~2.0 GB
+2026-11-16 10:05:46   N=14 + 3 diffuse: size   5948 (2 ch), memory ~3.4 GB
+2026-11-16 10:05:46   N=12 + 3 diffuse: size   5048 (2 ch), memory ~2.4 GB
+2026-11-16 10:05:46   N=16 + 3 diffuse: size   7104 (2 ch), memory ~4.8 GB
+2026-11-16 14:47:46 === run_map.py --target J3v1 stages=[1, 2, 3, 4, 5] threads=5
+2026-11-16 14:50:05 scales root 0 at M=41.408480 N=8: (2.414486711170159, 2.414486711170159, 1.2722293718073732) E=-0.515513774743 (78 evals, 138s)
+2026-11-16 14:50:50 scales root 1: (1.4389992755906678, 1.4389992755906678, 1.2858446276712239) E=-0.488380709232 E-E_th=-1.708e-04 (71 evals, 45s)
+2026-11-16 14:50:50 scale sets: [[2.414486711170159, 2.414486711170159, 1.2722293718073732], [1.4389992755906678, 1.4389992755906678, 1.2858446276712239]]
+2026-11-16 14:50:50 stage 1 finished (184s)
+2026-11-16 14:50:57 stage2 compact N=10: size=1144 kept=1002 lam_min/lam_max=-1.5e-16 tol=1e-12 margin=0 M*=41.0790339043 gap_below=-2.70e-02 (1s; build 6s)
+2026-11-16 14:51:17 stage2 compact N=12: size=1820 kept=1543 lam_min/lam_max=-1.9e-16 tol=1e-12 margin=0 M*=41.0763504962 gap_below=-2.70e-02 (1s; build 19s)
+2026-11-16 14:52:04 stage2 compact N=14: size=2720 kept=2243 lam_min/lam_max=-1.5e-16 tol=1e-12 margin=0 M*=41.0752485402 gap_below=-2.70e-02 (6s; build 41s)
+2026-11-16 14:53:41 stage2 compact N=16: size=3876 kept=3124 lam_min/lam_max=-9.6e-16 tol=1e-12 margin=0 M*=41.0748086490 gap_below=-2.70e-02 (13s; build 84s)
+2026-11-16 14:53:41 stage 2 finished (171s)
+2026-11-16 14:54:52 stage3 compact N=14 + 1 diffuse: size=3500 kept=2776 lam_min/lam_max=-1.2e-16 tol=1e-12 margin=0 M*=41.0743475121 gap_below=-2.70e-02 (10s; build 62s)
+2026-11-16 14:56:53 stage3 compact N=14 + 2 diffuse: size=4520 kept=3345 lam_min/lam_max=-1.2e-16 tol=1e-12 margin=0 M*=41.0743472743 gap_below=-2.70e-02 (21s; build 100s)
+2026-11-16 15:00:27 stage3 compact N=14 + 3 diffuse: size=5948 kept=4279 lam_min/lam_max=-2.0e-16 tol=1e-12 margin=0 M*=41.0743472675 gap_below=-2.70e-02 (45s; build 169s)
+2026-11-16 15:00:27 stage 3 finished (407s)
+2026-11-16 15:04:19 stage4 compact N=14 + 3 diffuse: size=5948 kept=4279 lam_min/lam_max=-2.0e-16 tol=1e-12 margin=1e-11 M*=41.0743472850 gap_below=-2.70e-02 (58s; build 173s)
+2026-11-16 15:05:28 stage4 compact N=14 + 3 diffuse: size=5948 kept=3978 lam_min/lam_max=-2.0e-16 tol=1e-10 margin=0 M*=41.0743477125 gap_below=-2.70e-02 (69s; build 173s)
+2026-11-16 15:06:08 stage4 compact N=14 + 3 diffuse: size=5948 kept=3978 lam_min/lam_max=-2.0e-16 tol=1e-10 margin=1e-11 M*=41.0743477300 gap_below=-2.70e-02 (40s; build 173s)
+2026-11-16 15:09:08 stage4 compact N=12 + 3 diffuse: size=5048 kept=3629 lam_min/lam_max=-2.1e-16 tol=1e-12 margin=0 M*=41.0743472808 gap_below=-2.70e-02 (59s; build 120s)
+2026-11-16 15:15:41 stage4 compact N=16 + 3 diffuse: size=7104 kept=5110 lam_min/lam_max=-1.0e-15 tol=1e-12 margin=0 M*=41.0743472647 gap_below=-2.70e-02 (133s; build 261s)
+2026-11-16 15:15:41 stage 4 finished (914s)
+2026-11-16 15:18:57 stage5 M=41.09488444 E_th-E_k=1.173121e-05 (22s)
+2026-11-16 15:19:00 stage5 M=41.11542161 E_th-E_k=2.347669e-05 (3s)
+2026-11-16 15:19:02 stage5 M=41.15649596 E_th-E_k=4.700934e-05 (2s)
+2026-11-16 15:19:04 stage5 M=41.27971900 E_th-E_k=1.179242e-04 (2s)
+2026-11-16 15:19:07 stage5 M=41.48509074 E_th-E_k=2.370832e-04 (2s)
+2026-11-16 15:19:09 stage5 M=41.89583421 E_th-E_k=4.785321e-04 (3s)
+2026-11-16 15:19:12 stage5 M=43.12806463 E_th-E_k=1.221462e-03 (3s)
+2026-11-16 15:19:14 stage5 M=45.18178199 E_th-E_k=2.495886e-03 (3s)
+2026-11-16 15:19:17 stage5 M=49.28921672 E_th-E_k=5.079565e-03 (3s)
+2026-11-16 15:19:17 stage 5 finished (216s)
+2026-11-16 15:19:17 ALL REQUESTED STAGES DONE (1891s)

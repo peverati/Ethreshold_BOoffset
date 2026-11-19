@@ -1,0 +1,20 @@
+Exact (non-BO) lowest natural-parity levels of {X+,X+,e-}; L=0,2 'S', L=1 'A' (P=(-1)^L).
+NOTE (2026-11-13): the rows M=206.7683 and M=1836.1527 are at CODATA-2018 masses (206.768283, 1836.15267343). At CODATA 2012 (206.7682843, 1836.15267245; used in Paper 1) the 12-digit energies are: Mu2+ L=0,1,2 -0.585126098252, -0.582928452634, -0.578683577569; H2+ L=0 -0.597139063045 (N=32 variational), L=1,L=2 -0.5968737388, -0.5963452055 (10 digits only; extrapolation error 4.5e-11). All spacings, ratios and BO columns are unchanged at the printed precision. See paper1/codata2012/changes.md.
+d1 = E(L=1)-E(L=0), d2 = E(L=2)-E(L=0) [hartree]; ratio = d2/d1 (rigid rotor 3); dvib = E(v=1,L=0)-E(v=0,L=0).
+bound: lowest root below E_th = -M/(2(M+1)) (variational proof); '-' = not bound in this basis.
+M*d1: rigid rotor d1 = 2B, B = <1/R^2>/(2 mu_N) = <1/R^2>/M, so M*d1 -> 2<1/R^2> (constant) at large M.
+Levels marked '-' are NOT bound (root above E_th): their 'spacings' are pseudo-continuum numbers, not physical.
+bv: v=1, L=0 root below E_th in this (ground-state-optimized) basis; at M=10 it is bound but needs root-1 scales (README sec. 6). BO/BOad: bo_h2plus Born-Oppenheimer (+adiabatic) J-spacings of v=0 (nan: J level not bound in BO).
+
+         M           E(L=0)           E(L=1)           E(L=2) b1 b2 bv           d1           d2   ratio      M*d1        dvib        BO d1      BOad d1 BO ratio  d1/BOad
+    1.0000  -0.262005070114  -0.249775821244  -0.249662889068  -  -  -  1.22292e-02  1.23422e-02  1.0092   0.01223  1.2600e-02          nan          nan      nan      nan
+    2.0000  -0.352687353055  -0.333038734897  -0.332893333146  -  -  -  1.96486e-02  1.97940e-02  1.0074   0.03930  2.0281e-02          nan          nan      nan      nan
+    3.0000  -0.400267038808  -0.374723101730  -0.374585235892  -  -  -  2.55439e-02  2.56818e-02  1.0054   0.07663  2.6289e-02          nan          nan      nan      nan
+    5.0000  -0.450780241108  -0.419889382466  -0.415739952176  y  -  -  3.08909e-02  3.50403e-02  1.1343   0.15445  3.5168e-02          nan  3.07406e-02      nan  1.00489
+    7.0000  -0.477943605538  -0.449447840196  -0.435971071059  y  -  -  2.84958e-02  4.19725e-02  1.4729   0.19947  4.1380e-02  2.64971e-02  2.86177e-02      nan  0.99574
+   10.0000  -0.501800153396  -0.477287816888  -0.452597211582  y  -  -  2.45123e-02  4.92029e-02  2.0073   0.24512  4.7462e-02  2.37250e-02  2.46353e-02      nan  0.99501
+   20.0000  -0.536021015599  -0.519901362845  -0.496129580099  y  y  y  1.61197e-02  3.98914e-02  2.4747   0.32239  5.1166e-02  1.59963e-02  1.61699e-02   2.4638  0.99689
+   50.0000  -0.563750580187  -0.555852034437  -0.542038371483  y  y  y  7.89855e-03  2.17122e-02  2.7489   0.39493  4.3212e-02  7.89087e-03  7.90908e-03   2.7476  0.99867
+  100.0000  -0.576442412864  -0.572140917518  -0.564121202390  y  y  y  4.30150e-03  1.23212e-02  2.8644   0.43015  3.4672e-02  4.30121e-03  4.30445e-03   2.8641  0.99931
+  206.7683  -0.585126098192  -0.582928452560  -0.578683577472  y  y  y  2.19765e-03  6.44252e-03  2.9316   0.45440  2.6298e-02  2.19786e-03  2.19839e-03   2.9315  0.99966
+ 1836.1527  -0.597139063047  -0.596873738766  -0.596345205474  y  y  y  2.65324e-04  7.93858e-04  2.9920   0.48718  9.9834e-03  2.65332e-04  2.65335e-04   2.9920  0.99996

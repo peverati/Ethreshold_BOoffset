@@ -1,0 +1,17 @@
+=== M = 1  N = 28 weights (1, 1, 1) size 2360  E = -0.26200507020127 (scan -0.26200507020127)  build 9.7s
+chi_F perturbative 0.469825574773; FD h=0.02 0.469806434495 h=0.01 0.469820789757 Richardson 0.469825574844; dE/dlnM -0.133238588943
+quadrature: n0 0.99999999999999 (exact 1) ; nx/n0 0.469825574773 vs x^T S x 0.469825574773; <psi|x> 7.57e-16
+anti-Hermiticity: <psi|D psi> 1.26e-15  <psi|D_R psi> 1.28e-15
+singular pieces (equal by 0<->1 symmetry): 1.196297330749 1.196297330749
+polar convergence {'npan': 20, 'nper': 24}: 1.196297330749 (diff -8.88e-16)
+polar convergence {'extra': 20}: 1.196297330749 (diff 5.77e-15)
+product-grid extra=16: DD 1.467074511248 vs 1.467074511248; pR 0.591773705882 vs 0.591773705882
+chis: chi_inv 0.0099814141 chi_sep 0.0056106942 DD 1.4670745112 RR 2.7469451743 DR 0.8811505052 pD 0.8213559809 pR 0.5917737059 gram_corr 0.4389337879
+||D psi||^2: quadrature 1.4670745112; from exact dilated overlaps 1.4670156799 1.4670598031 Rich 1.4670745108
+uniform-mass scaling: chi 1.4670744911 vs ||Dpsi||^2 1.4670745112; <x|Dpsi>/DD 0.9999999912 (exact 1); chi_inv 5.54e-09 chi_sep 5.54e-09 (exact 0)
+finite-separation chi_inv h=0.02: 0.0099818642 (vs 0.0099814141)
+finite-separation chi_inv h=0.01: 0.0099815266 (vs 0.0099814141)
+time 38.3s
+M=1 brute-force Jacobi: RR 2.746941608 (fidcore 2.746945174, rel -1.3e-06) pR 0.591774431 (fidcore 0.591773706, rel 1.2e-06) DR 0.881151162 (fidcore 0.881150505, rel 7.5e-07)
+H^- (inf mass, N=24, alphas 0.83291,1.75101): E = -0.527751016387; ||D psi||^2 = 1.3675463846
+H^- (inf mass, N=28, alphas 0.83291,1.75101): E = -0.527751016490; ||D psi||^2 = 1.3675463810

@@ -1,0 +1,7 @@
+2026-11-16 16:45:05 enlarge M ({'mirror': True, 'dc': 0, 'dd': 0}): size 6447
+2026-11-16 16:47:20 enlarge M: size=6447 kept=4709 M*=11.5737604268 (std 11.5737598161, shift +6.107e-07) (135s)
+2026-11-16 16:47:20 enlarge P6 ({'mirror': False, 'dc': 2, 'dd': 0}): size 6743
+2026-11-16 16:49:45 enlarge P6: size=6743 kept=4958 M*=11.5737605813 (std 11.5737598161, shift +7.651e-07) (145s)
+2026-11-16 16:49:45 enlarge MP6 ({'mirror': True, 'dc': 2, 'dd': 0}): size 9515
+2026-11-16 16:54:23 enlarge MP6: size=9515 kept=7116 M*=11.5737601949 (std 11.5737598161, shift +3.787e-07) (277s)
+2026-11-16 16:54:23 enlarge DONE

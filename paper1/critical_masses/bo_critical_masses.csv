@@ -1,0 +1,13 @@
+# BO and BO+adiabatic critical masses, J = 0 (n = number of bound levels after M_c)
+# model,n,M_c,est_err,M_c_ppw16,M_c_ppw32
+BO,1,0.9649154241,1.1e-12,0.9649154241,0.9649154241
+BO,2,11.0814565936,2.3e-10,11.0814565900,11.0814565934
+BO,3,31.1677742732,3.8e-09,31.1677742119,31.1677742693
+BO,4,60.8466743841,2.6e-08,60.8466739629,60.8466743578
+# BO+ad: n = 1 is bound already at M = 0.05 (count_levels), so no n = 1 critical mass in the range studied
+BO+ad(own asymptote),2,10.0631790320,2.2e-10,10.0631790285,10.0631790318
+BO+ad(own asymptote),3,30.1455551746,3.8e-09,30.1455551135,30.1455551708
+BO+ad(own asymptote),4,59.8156816751,2.6e-08,59.8156812550,59.8156816488
+BO+ad(vs exact threshold),2,12.13550978,~1e-6 (DVR),,
+BO+ad(vs exact threshold),3,32.49080152,~1e-6 (DVR),,
+BO+ad(vs exact threshold),4,62.63025699,~1e-6 (DVR),,

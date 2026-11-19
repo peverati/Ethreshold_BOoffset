@@ -1,0 +1,17 @@
+# thresholds_Lv/predict.py  2026-11-15 20:16
+state   lam_c(BO+ad)  M_c(BO+ad)  pred_1st  pred_np   f_cen   <m_v>_w  <m_r>_w   exact     resid_np
+L=0 v=1   10.5631790   10.063179   0.52569   0.52808   0.000   0.4794      nan   9.525634  +0.00947
+L=1 v=0    5.0705653    4.570565   0.33100   0.33279   0.651   0.3829   0.2215   4.208283  +0.02949
+L=2 v=0   12.2786164   11.778616   0.27787   0.27783   0.773   0.4176   0.2107  11.489422  +0.01137
+L=1 v=1   18.0236378   17.523638   0.41676   0.41647   0.319   0.4682   0.2401        nan  +nan
+L=3 v=0   22.1380558   21.638056   0.25625   0.25622   0.830   0.4390   0.2061        nan  +nan
+L=4 v=0   34.6615637   34.161564   0.24404   0.24406   0.864   0.4529   0.2036        nan  +nan
+weight cut radius r_cut by L (RM = 20000 means no cut): {1: 20000.0, 2: 5859.774638023887, 3: 595.5013904308429, 4: 215.62718255464011}
+(L=1 v=0, L=2 v=0, L=0 v=1 reproduce massfunc/analysis.txt to < 2e-4: asserted)
+
+L>0 calibration residuals (exact - predicted offset): L=1 v=0 +0.0295, L=2 v=0 +0.0114; lam*resid = 0.1496, 0.1396 (mean 0.1446)
+J1v1: BO 18.494475  BO+ad 17.523638  parameter-free (non-pert) 17.10717 +/- 0.0295  (first order 17.10688);  empirical (resid ~ 0.145/lam) 17.09915
+J3v0: BO 22.599590  BO+ad 21.638056  parameter-free (non-pert) 21.38183 +/- 0.0295  (first order 21.38181);  empirical (resid ~ 0.145/lam) 21.37530
+J4v0: BO 35.124626  BO+ad 34.161564  parameter-free (non-pert) 33.91751 +/- 0.0295  (first order 33.91753);  empirical (resid ~ 0.145/lam) 33.91334
+
+run time 69 s

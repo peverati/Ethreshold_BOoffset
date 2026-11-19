@@ -1,0 +1,11 @@
+# Crossover width (ground-state Lindemann ratio), from ../mass_scans/descriptors.csv
+
+(a) local exponent f=-4 dlnL/dlnM: f=0.1 at M=0.455, f=0.5 at M=1.523, f=0.9 at M=95.01; width 5.34 in ln M (2.32 decades)
+(b) Lindemann 90% of max (0.5507 at M=0.2) at M=1.657, 50% at M=38.76, 10% at M=3.25e+04 (M^-1/4 tail extrapolation); width 9.88 in ln M (4.29 decades)
+
+ground-state markers, all (Lindemann max .. X kinetic max): spread 1.71 in ln M = 0.32 x width(a) = 0.17 x width(b)
+literature-proposed only (Matyus 0.4-0.8, King 0.4924, Kais-Shi 0.543, Salas 0.98): spread 0.90 in ln M = 0.17 x width(a) = 0.09 x width(b)
+with the sharp thresholds (L=1 4.21 .. v=4 98.27): spread 6.20 in ln M = 1.16 x width(a) = 0.63 x width(b)
+
+Grid: 37 masses, finite differences between neighbours (f is evaluated at geometric midpoints);
+interpolation linear in ln M. The f levels move by a few percent with the grid; the conclusion does not.

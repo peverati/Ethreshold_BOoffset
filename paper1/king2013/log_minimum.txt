@@ -1,0 +1,12 @@
+17:15:47 minimum alphas@0.49 Nopt=12 N=20: M_min=0.492422822219 g_min=0.045113914309 t=5s
+17:16:02 minimum alphas@0.49 Nopt=12 N=24: M_min=0.492422420810 g_min=0.045113915824 t=16s
+17:16:30 minimum alphas@0.49 Nopt=12 N=28: M_min=0.492422309949 g_min=0.045113916239 t=28s
+17:17:56 minimum alphas@0.49 Nopt=12 N=32: M_min=0.492422273794 g_min=0.045113916374 t=86s
+17:18:36 minimum alphas@0.49 Nopt=16 N=20: M_min=0.492422486613 g_min=0.045113915518 t=3s
+17:18:44 minimum alphas@0.49 Nopt=16 N=24: M_min=0.492422324124 g_min=0.045113916187 t=9s
+17:19:16 minimum alphas@0.49 Nopt=16 N=28: M_min=0.492422275916 g_min=0.045113916366 t=32s
+17:20:54 minimum alphas@0.49 Nopt=16 N=32: M_min=0.492422260229 g_min=0.045113916424 t=97s
+17:21:30 minimum alphas@0.4 Nopt=12 N=28: M_min=0.492422431056 g_min=0.045113915786 t=29s
+17:22:51 minimum alphas@0.4 Nopt=12 N=32: M_min=0.492422322159 g_min=0.045113916194 t=80s
+17:23:32 minimum alphas@0.6 Nopt=12 N=28: M_min=0.492422270528 g_min=0.045113916386 t=33s
+17:24:59 minimum alphas@0.6 Nopt=12 N=32: M_min=0.492422258095 g_min=0.045113916432 t=87s

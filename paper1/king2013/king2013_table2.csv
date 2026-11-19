@@ -1,0 +1,9 @@
+system,m1,m3,units,E_1078_0eps,E_1078_1eps,E_1078_1par,E_1078_2par,E_2856_2par,E_literature,note
+H-,e,p,electron a.u.,-0.527445879971,-0.527445880856,-0.527445880308,-0.527445880936,-0.527445881063,-0.527445881109,"literature value (their Ref. 33) used a different proton mass (italics in the source: not comparable)"
+Mu-,e,mu,electron a.u.,-0.525054805419,-0.525054806285,-0.525054806257,-0.525054806359,-0.525054806510,-0.525054806243,"literature value (their Ref. 40) used a different muon mass"
+muH-,mu,p,muonic a.u.,-0.471866335351,-0.471866335351,-0.471866335439,-0.471866335829,-0.471866336008,-0.4718663476,"(mu,mu,p); muonic atomic units (m_mu = 1); literature value printed without minus sign and with a different mass"
+Ps-,e,e,electron a.u.,-0.262005070179,-0.262005070179,-0.262005070183,-0.262005070181,-0.262005070191,-0.262005070232,"mass-independent: the literature value is directly comparable"
+muD2+,d,mu,muonic a.u.,-0.531111108795,-0.531111130226,-0.531111130227,-0.531111130229,-0.531111130229,-0.531111132193,"(d,d,mu); muonic atomic units; literature value with a different deuteron/muon mass"
+Mu2+,mu,e,electron a.u.,-0.584634830218,-0.585125619750,-0.585125619884,-0.585126098252,-0.585126098252,-0.585126097219,"(mu,mu,e); literature value with a different muon mass"
+H2+,p,e,electron a.u.,-0.593491412007,-0.596934608385,-0.596934608385,-0.597139019182,-0.597139063079,-0.597139063123,"literature value (their Ref. 42) used m_p = 1836.152701 (Table I caption)"
+D2+,d,e,electron a.u.,-0.594147283314,-0.598301359076,-0.598301404265,-0.598787112904,-0.598788784032,-0.598788784331,"literature value (their Ref. 43) used m_d = 3670.483014 (Table I caption)"

@@ -1,0 +1,43 @@
+2026-11-15 20:26:35 === --dry L1S: L=1 sym=S root k=0; BO 815.558715, BO+ad None; bracket (734.0028430669443, 856.3366502447683); threads 2
+2026-11-15 20:26:35 calibration: compact N=10, size 572: build 0.6s, project+1 solve 0.1s
+2026-11-15 20:26:35   N= 8 + 0 diffuse: size    330 (1 channel(s)) est    0.0 min x1, memory ~0.0 GB
+2026-11-15 20:26:35   N=10 + 0 diffuse: size    572 (1 channel(s)) est    0.0 min x1, memory ~0.0 GB
+2026-11-15 20:26:35   N=10 + 1 diffuse: size   1802 (1 channel(s)) est    0.7 min x1, memory ~0.3 GB
+2026-11-15 20:26:35   N=10 + 2 diffuse: size   3032 (1 channel(s)) est    3.1 min x1, memory ~0.9 GB
+2026-11-15 20:26:35   N=10 + 3 diffuse: size   4562 (1 channel(s)) est   10.1 min x1, memory ~2.0 GB
+2026-11-15 20:26:35   N=10 + 4 diffuse: size   6092 (1 channel(s)) est   23.8 min x1, memory ~3.6 GB
+2026-11-15 20:26:35   N=10 + 5 diffuse: size   7922 (1 channel(s)) est   51.6 min x4, memory ~6.0 GB
+2026-11-15 20:26:35   N= 8 + 5 diffuse: size   7680 (1 channel(s)) est   47.1 min x1, memory ~5.7 GB
+2026-11-15 20:26:35   N=12 + 5 diffuse: size   8260 (1 channel(s)) est   58.5 min x1, memory ~6.5 GB
+2026-11-15 20:26:35 TOTAL estimated 6.19 h (excl. stage 1 scales, ~1-5 min); peak size 8260, peak memory ~6.5 GB (12 n^2 doubles)
+2026-11-15 22:24:30 === run_exact.py --target L1S stages=[1, 2, 3, 4, 5] threads=8
+2026-11-15 22:24:30 fixed scales [[1.0, 1.0, 1.0], [0.5, 0.5, 1.0]] (M_ref 815.5587 for the atom scale mu)
+2026-11-15 22:24:30 stage 1 finished (0s)
+2026-11-15 22:24:30   compact N=8 tol=1e-12 margin=0: no bracket: f(1302.381003)=9.099e-05 f(1497.738153)=8.592e-05
+2026-11-15 22:24:30 stage2 compact N=8: size=330 kept=316 tol=1e-12 margin=0 M*=nan (0s; build 0s)
+2026-11-15 22:24:31   compact N=10 tol=1e-12 margin=0: no bracket: f(1302.381003)=4.717e-06 f(1497.738153)=9.942e-07
+2026-11-15 22:24:31 stage2 compact N=10: size=572 kept=531 tol=1e-12 margin=0 M*=nan (0s; build 1s)
+2026-11-15 22:24:31 stage 2 finished (1s)
+2026-11-15 22:24:41 stage3 compact N=10 + 1 diffuse: size=1802 kept=1496 tol=1e-12 margin=0 M*=815.9867892238 (5s; build 5s)
+2026-11-15 22:25:02 stage3 compact N=10 + 2 diffuse: size=3032 kept=1910 tol=1e-12 margin=0 M*=813.9078470426 (10s; build 12s)
+2026-11-15 22:25:56 stage3 compact N=10 + 3 diffuse: size=4562 kept=2471 tol=1e-12 margin=0 M*=813.6540524612 (30s; build 25s)
+2026-11-15 22:27:28 stage3 compact N=10 + 4 diffuse: size=6092 kept=2909 tol=1e-12 margin=0 M*=813.6488581679 (47s; build 44s)
+2026-11-15 22:29:53 stage3 compact N=10 + 5 diffuse: size=7922 kept=3513 tol=1e-12 margin=0 M*=813.6470878126 (72s; build 74s)
+2026-11-15 22:29:53 stage 3 finished (322s)
+2026-11-15 22:33:23 stage4 compact N=10 + 5 diffuse: size=7922 kept=3513 tol=1e-12 margin=1e-11 M*=813.6485146411 (135s; build 75s)
+2026-11-15 22:35:16 stage4 compact N=10 + 5 diffuse: size=7922 kept=3406 tol=1e-10 margin=0 M*=813.7006388165 (113s; build 75s)
+2026-11-15 22:36:29 stage4 compact N=10 + 5 diffuse: size=7922 kept=3406 tol=1e-10 margin=1e-11 M*=813.7020650262 (73s; build 75s)
+2026-11-15 22:39:23 stage4 compact N=8 + 5 diffuse: size=7680 kept=3362 tol=1e-12 margin=0 M*=813.7250061031 (102s; build 71s)
+2026-11-15 22:42:58 stage4 compact N=12 + 5 diffuse: size=8260 kept=3737 tol=1e-12 margin=0 M*=813.6015319265 (135s; build 80s)
+2026-11-15 22:42:59 stage 4 finished (785s)
+2026-11-15 22:45:11 stage5 M=814.00833269 E_th-E_k=2.591989e-09 (59s)
+2026-11-15 22:45:14 stage5 M=814.41513346 E_th-E_k=5.591212e-09 (2s)
+2026-11-15 22:45:16 stage5 M=815.22873499 E_th-E_k=1.174696e-08 (3s)
+2026-11-15 22:45:18 stage5 M=817.66953959 E_th-E_k=3.104824e-08 (2s)
+2026-11-15 22:45:21 stage5 M=821.73754725 E_th-E_k=6.510217e-08 (2s)
+2026-11-15 22:45:23 stage5 M=829.87356256 E_th-E_k=1.380228e-07 (2s)
+2026-11-15 22:45:25 stage5 M=854.28160852 E_th-E_k=3.810952e-07 (2s)
+2026-11-15 22:45:28 stage5 M=894.96168512 E_th-E_k=8.338956e-07 (3s)
+2026-11-15 22:45:31 stage5 M=976.32183831 E_th-E_k=1.824951e-06 (3s)
+2026-11-15 22:45:31 stage 5 finished (153s)
+2026-11-15 22:45:31 ALL REQUESTED STAGES DONE (1261s)

@@ -1,0 +1,81 @@
+17:15:43 table M=a3=0.17 N=16 size=525 E=-0.370754209477240 dropped=0
+17:15:46 table M=a3=0.17 N=20 size=946 E=-0.370754212088280 dropped=0
+17:15:53 table M=a3=0.17 N=24 size=1547 E=-0.370754212640683 dropped=0
+17:16:09 table M=a3=0.17 N=28 size=2360 E=-0.370754212791714 dropped=0
+17:16:38 table M=a3=0.17 N=32 size=3417 E=-0.370754212840573 dropped=0
+17:16:38 table M=a3=0.17 done: E_ext=-0.370754212863938 err=2.3e-11 flag= t=67s
+17:16:46 table M=a3=0.18 N=16 size=525 E=-0.363152953177279 dropped=0
+17:16:48 table M=a3=0.18 N=20 size=946 E=-0.363152955689863 dropped=0
+17:16:52 table M=a3=0.18 N=24 size=1547 E=-0.363152956221969 dropped=0
+17:17:05 table M=a3=0.18 N=28 size=2360 E=-0.363152956367584 dropped=0
+17:17:34 table M=a3=0.18 N=32 size=3417 E=-0.363152956414753 dropped=0
+17:17:34 table M=a3=0.18 done: E_ext=-0.363152956437354 err=2.3e-11 flag= t=56s
+17:17:42 table M=a3=0.19 N=16 size=525 E=-0.355693639009353 dropped=0
+17:17:44 table M=a3=0.19 N=20 size=946 E=-0.355693641419329 dropped=0
+17:17:49 table M=a3=0.19 N=24 size=1547 E=-0.355693641930303 dropped=0
+17:18:02 table M=a3=0.19 N=28 size=2360 E=-0.355693642070214 dropped=0
+17:18:33 table M=a3=0.19 N=32 size=3417 E=-0.355693642115548 dropped=0
+17:18:33 table M=a3=0.19 done: E_ext=-0.355693642137279 err=2.2e-11 flag= t=59s
+17:18:40 table M=a3=0.20 N=16 size=525 E=-0.348371662891304 dropped=0
+17:18:41 table M=a3=0.20 N=20 size=946 E=-0.348371665195320 dropped=0
+17:18:46 table M=a3=0.20 N=24 size=1547 E=-0.348371665684432 dropped=0
+17:18:57 table M=a3=0.20 N=28 size=2360 E=-0.348371665818452 dropped=0
+17:19:34 table M=a3=0.20 N=32 size=3417 E=-0.348371665861918 dropped=0
+17:19:34 table M=a3=0.20 done: E_ext=-0.348371665882782 err=2.1e-11 flag= t=61s
+17:19:44 table M=a3=0.21 N=16 size=525 E=-0.341182647541902 dropped=0
+17:19:47 table M=a3=0.21 N=20 size=946 E=-0.341182649737924 dropped=0
+17:19:54 table M=a3=0.21 N=24 size=1547 E=-0.341182650204723 dropped=0
+17:20:12 table M=a3=0.21 N=28 size=2360 E=-0.341182650332746 dropped=0
+17:20:48 table M=a3=0.21 N=32 size=3417 E=-0.341182650374295 dropped=0
+17:20:48 table M=a3=0.21 done: E_ext=-0.341182650394258 err=2.0e-11 flag= t=74s
+17:20:57 table M=a3=0.22 N=16 size=525 E=-0.334122426412811 dropped=0
+17:20:58 table M=a3=0.22 N=20 size=946 E=-0.334122428498926 dropped=0
+17:21:03 table M=a3=0.22 N=24 size=1547 E=-0.334122428942958 dropped=0
+17:21:17 table M=a3=0.22 N=28 size=2360 E=-0.334122429064857 dropped=0
+17:21:45 table M=a3=0.22 N=32 size=3417 E=-0.334122429104436 dropped=0
+17:21:45 table M=a3=0.22 done: E_ext=-0.334122429123467 err=1.9e-11 flag= t=57s
+17:21:53 table M=a3=0.23 N=16 size=525 E=-0.327187029077316 dropped=0
+17:21:55 table M=a3=0.23 N=20 size=946 E=-0.327187031053697 dropped=0
+17:22:01 table M=a3=0.23 N=24 size=1547 E=-0.327187031475011 dropped=0
+17:22:15 table M=a3=0.23 N=28 size=2360 E=-0.327187031590761 dropped=0
+17:22:48 table M=a3=0.23 N=32 size=3417 E=-0.327187031628355 dropped=0
+17:22:48 table M=a3=0.23 done: E_ext=-0.327187031646439 err=1.8e-11 flag= t=63s
+17:22:58 table M=H-@lit N=16 size=525 E=-0.527445877577603 dropped=0
+17:23:00 table M=H-@lit N=20 size=946 E=-0.527445880298479 dropped=0
+17:23:04 table M=H-@lit N=24 size=1547 E=-0.527445880875155 dropped=0
+17:23:19 table M=H-@lit N=28 size=2360 E=-0.527445881031608 dropped=0
+17:23:47 table M=H-@lit N=32 size=3417 E=-0.527445881081814 dropped=0
+17:23:48 table M=H-@lit done: E_ext=-0.527445881105538 err=2.4e-11 flag= t=58s
+17:23:55 table M=Mu-@lit N=16 size=525 E=-0.525054802680232 dropped=0
+17:23:57 table M=Mu-@lit N=20 size=946 E=-0.525054805421835 dropped=0
+17:24:02 table M=Mu-@lit N=24 size=1547 E=-0.525054806002732 dropped=0
+17:24:16 table M=Mu-@lit N=28 size=2360 E=-0.525054806160310 dropped=0
+17:24:48 table M=Mu-@lit N=32 size=3417 E=-0.525054806210913 dropped=0
+17:24:48 table M=Mu-@lit done: E_ext=-0.525054806234849 err=2.4e-11 flag= t=60s
+17:24:58 table M=muH-@lit N=16 size=525 E=-0.471866337218397 dropped=0
+17:25:00 table M=muH-@lit N=20 size=946 E=-0.471866340301057 dropped=0
+17:25:04 table M=muH-@lit N=24 size=1547 E=-0.471866340951137 dropped=0
+17:25:13 table M=muH-@lit N=28 size=2360 E=-0.471866341127755 dropped=0
+17:25:36 table M=muH-@lit N=32 size=3417 E=-0.471866341184602 dropped=0
+17:25:36 table M=muH-@lit done: E_ext=-0.471866341211583 err=2.7e-11 flag= t=48s
+17:25:42 table M=muD2+@lit N=16 size=525 E=-0.531111132149229 dropped=0
+17:25:44 table M=muD2+@lit N=20 size=946 E=-0.531111132149819 dropped=0
+17:25:47 table M=muD2+@lit N=24 size=1547 E=-0.531111132149857 dropped=0
+17:25:58 table M=muD2+@lit N=28 size=2360 E=-0.531111132149818 dropped=0
+17:26:23 table M=muD2+@lit N=32 size=3417 E=-0.531111132149898 dropped=0
+17:26:23 table M=muD2+@lit done: E_ext=-0.531111132149898 err=1.2e-13 flag=nonmonotonic t=47s
+17:26:51 table M=Mu2+@lit N=28 size=1240 E=-0.585126097219121 dropped=0
+17:26:56 table M=Mu2+@lit N=32 size=1785 E=-0.585126097219165 dropped=0
+17:27:08 table M=Mu2+@lit N=36 size=2470 E=-0.585126097219199 dropped=0
+17:27:31 table M=Mu2+@lit N=40 size=3311 E=-0.585126097219271 dropped=0
+17:27:31 table M=Mu2+@lit done: E_ext=-0.585126097219271 err=7.3e-13 flag=rho>=1 t=68s
+17:27:57 table M=H2+@lit N=28 size=1240 E=-0.597139062955796 dropped=0
+17:28:02 table M=H2+@lit N=32 size=1785 E=-0.597139063118471 dropped=0
+17:28:11 table M=H2+@lit N=36 size=2470 E=-0.597139063123249 dropped=0
+17:28:32 table M=H2+@lit N=40 size=3311 E=-0.597139063123175 dropped=0
+17:28:32 table M=H2+@lit done: E_ext=-0.597139063123175 err=4.9e-12 flag=nonmonotonic t=61s
+17:28:56 table M=D2+@lit N=32 size=1785 E=-0.598788783010250 dropped=0
+17:29:06 table M=D2+@lit N=36 size=2470 E=-0.598788784262603 dropped=0
+17:29:25 table M=D2+@lit N=40 size=3311 E=-0.598788784324129 dropped=0
+17:30:03 table M=D2+@lit N=44 size=4324 E=-0.598788784330414 dropped=0
+17:30:03 table M=D2+@lit done: E_ext=-0.598788784331129 err=3.8e-12 flag= t=91s

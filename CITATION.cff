@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the paper and this repository."
+title: "Ethreshold_BOoffset: code and data for threshold masses of three-particle Coulomb systems and their Born-Oppenheimer offsets"
+authors:
+  - family-names: Peverati
+    given-names: Roberto
+    affiliation: "Florida Institute of Technology"
+license: MIT
+repository-code: "https://github.com/peverati/Ethreshold_BOoffset"
+version: "1.0.0"
+date-released: "2026-11-19"
+keywords:
+  - Born-Oppenheimer approximation
+  - three-body Coulomb problem
+  - threshold masses
+  - non-adiabatic effects
+  - molecular structure
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Peverati
+      given-names: Roberto
+  title: "Where does a molecule begin? Threshold masses of three-particle Coulomb systems and a predictive theory of their Born-Oppenheimer offsets"
+  journal: "Physical Chemistry Chemical Physics"
+  status: submitted

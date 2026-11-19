@@ -1,0 +1,25 @@
+2026-11-16 16:35:08 enlarge M ({'mirror': True, 'dc': 0, 'dd': 0}): size 6447
+2026-11-16 16:38:25 enlarge M: size=6447 kept=4970 M*=9.5256557322 (std 9.5872824899, shift -6.163e-02) (197s)
+2026-11-16 16:38:25 enlarge P6 ({'mirror': False, 'dc': 2, 'dd': 0}): size 6743
+2026-11-16 16:42:40 enlarge P6: size=6743 kept=5197 M*=9.5873122731 (std 9.5872824899, shift +2.978e-05) (255s)
+2026-11-16 16:42:40 enlarge MP6 ({'mirror': True, 'dc': 2, 'dd': 0}): size 9515
+2026-11-16 16:50:24 enlarge MP6: size=9515 kept=7352 M*=8.1815692717 (std 9.5872824899, shift -1.406e+00) REJECTED: crossing: gap(M*(1-0.001))=+3.963e-13, gap(M*(1+0.001))=-8.705e-13 (need >= -1e-10 and difference < -1e-09) (464s)
+2026-11-16 16:50:24 enlarge P8 ({'mirror': False, 'dc': 4, 'dd': 0}): size 9072
+2026-11-16 16:54:47 enlarge M@m ({'mirror': True, 'dc': 0, 'dd': 0}): size 6447
+2026-11-16 16:57:17 enlarge M@m: size=6447 kept=4970 M*=9.5258643234 (std 9.5872824899, shift -6.142e-02) (150s)
+2026-11-16 16:57:17 enlarge MD20@m ({'mirror': True, 'dc': 0, 'dd': 20}): size 8847
+2026-11-16 16:57:40 enlarge P8: size=9072 kept=7027 M*=9.5871362250 (std 9.5872824899, shift -1.463e-04) (436s)
+2026-11-16 16:57:40 enlarge MB ({'mirror': True, 'dc': 2, 'dd': 20}): size 13995
+2026-11-16 17:02:44 enlarge MD20@m: size=8847 kept=6505 M*=9.5258641261 (std 9.5872824899, shift -6.142e-02) (328s)
+2026-11-16 17:02:44 enlarge MP6@m ({'mirror': True, 'dc': 2, 'dd': 0}): size 9515
+2026-11-16 17:09:30 enlarge MP6@m: size=9515 kept=7352 M*=8.2203578986 (std 9.5872824899, shift -1.367e+00) REJECTED: crossing: gap(M*(1-0.001))=+3.433e-12, gap(M*(1+0.001))=-4.090e-12 (need >= -1e-10 and difference < -1e-09) (406s)
+2026-11-16 17:09:30 enlarge MD40@m ({'mirror': True, 'dc': 0, 'dd': 40}): size 11247
+2026-11-16 17:21:04 enlarge MB: size=13995 kept=10215 M*=9.5256489088 (std 9.5872824899, shift -6.163e-02) (1404s)
+2026-11-16 17:21:04 enlarge DONE
+2026-11-16 17:21:13 enlarge MN14 ({'mirror': True, 'dc': 0, 'dd': 0, 'N': 14}): size 5580
+2026-11-16 17:21:35 enlarge MD40@m: size=11247 kept=8067 M*=9.5258641780 (std 9.5872824899, shift -6.142e-02) (725s)
+2026-11-16 17:21:35 enlarge DONE
+2026-11-16 17:23:02 enlarge MN14: size=5580 kept=4381 M*=9.5256557351 (std 9.5872824899, shift -6.163e-02) (109s)
+2026-11-16 17:23:02 enlarge MN18 ({'mirror': True, 'dc': 0, 'dd': 0, 'N': 18}): size 7530
+2026-11-16 17:27:31 enlarge MN18: size=7530 kept=5708 M*=9.5256555019 (std 9.5872824899, shift -6.163e-02) (270s)
+2026-11-16 17:27:32 enlarge DONE

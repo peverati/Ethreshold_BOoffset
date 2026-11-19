@@ -1,0 +1,3 @@
+WKB (v->inf, L=0) first-order adiabatic shift dlam_ad = -1.05816
+WKB radial-weight cumulative fractions at r < [1.5, 3, 5, 8, 15, 40]: [0.0558, 0.3632, 0.6519, 0.8425, 0.9326, 0.9749]
+inner turning point r = 1.1096

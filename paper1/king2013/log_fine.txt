@@ -1,0 +1,22 @@
+14:58:03 fine panel c=0.300 alphas=0.171988,0.362267 npts=10 build 44s
+14:59:32 fine panel c=0.300 done t=134s
+15:00:10 fine panel c=0.350 alphas=0.193076,0.405412 npts=20 build 38s
+15:03:05 fine panel c=0.350 done t=213s
+15:03:46 fine panel c=0.400 alphas=0.212923,0.445631 npts=20 build 41s
+15:07:03 fine panel c=0.400 done t=239s
+15:07:47 fine panel c=0.450 alphas=0.231706,0.483224 npts=20 build 43s
+15:10:20 fine panel c=0.450 done t=197s
+15:10:58 fine panel c=0.500 alphas=0.249573,0.518441 npts=20 build 37s
+15:13:50 fine panel c=0.500 done t=210s
+15:14:27 fine panel c=0.550 alphas=0.266662,0.551562 npts=20 build 36s
+15:17:17 fine panel c=0.550 done t=207s
+15:17:56 fine panel c=0.600 alphas=0.283034,0.582831 npts=20 build 39s
+15:20:31 fine panel c=0.600 done t=193s
+15:21:08 fine panel c=0.650 alphas=0.298781,0.612402 npts=20 build 37s
+15:23:41 fine panel c=0.650 done t=191s
+15:24:18 fine panel c=0.700 alphas=0.313957,0.640516 npts=20 build 37s
+15:26:59 fine panel c=0.700 done t=198s
+15:27:38 fine panel c=0.750 alphas=0.328647,0.667245 npts=20 build 39s
+15:30:31 fine panel c=0.750 done t=212s
+15:31:20 fine panel c=0.800 alphas=0.342867,0.692729 npts=11 build 50s
+15:33:22 fine panel c=0.800 done t=171s

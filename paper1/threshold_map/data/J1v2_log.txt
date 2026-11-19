@@ -1,0 +1,50 @@
+2026-11-16 10:05:40 === --dry J1v2: L=1 sym=A root k=2; BO 40.755428, BO+ad 39.766531; bracket (38.26653136472374, 40.06653136472374); N_opt 10 M_opt 40.9595; Ns (12, 14, 16, 18) ND 16 diffuse 5; threads 8
+2026-11-16 10:05:40   N=12 + 0 diffuse: size   1365 (1 ch), memory ~0.2 GB
+2026-11-16 10:05:40   N=14 + 0 diffuse: size   2040 (1 ch), memory ~0.4 GB
+2026-11-16 10:05:40   N=16 + 0 diffuse: size   2907 (1 ch), memory ~0.8 GB
+2026-11-16 10:05:40   N=18 + 0 diffuse: size   3990 (1 ch), memory ~1.5 GB
+2026-11-16 10:05:40   N=16 + 1 diffuse: size   3297 (1 ch), memory ~1.0 GB
+2026-11-16 10:05:40   N=16 + 2 diffuse: size   3807 (1 ch), memory ~1.4 GB
+2026-11-16 10:05:40   N=16 + 3 diffuse: size   4521 (1 ch), memory ~2.0 GB
+2026-11-16 10:05:40   N=16 + 4 diffuse: size   5403 (1 ch), memory ~2.8 GB
+2026-11-16 10:05:40   N=16 + 5 diffuse: size   6579 (1 ch), memory ~4.2 GB
+2026-11-16 10:05:40   N=14 + 5 diffuse: size   5712 (1 ch), memory ~3.1 GB
+2026-11-16 10:05:40   N=18 + 5 diffuse: size   7662 (1 ch), memory ~5.6 GB
+2026-11-16 10:18:24 scales root 0 at M=40.959527 N=10: (2.8731725106808823, 2.8731725106808823, 1.4062060621117483) E=-0.549655895645 (79 evals, 28s)
+2026-11-16 10:18:54 scales root 2: (0.9961188190010248, 0.9961188190010248, 1.384188701648325) E=-0.488228254833 E-E_th=-1.445e-04 (78 evals, 31s)
+2026-11-16 10:18:54 scale sets: [[2.8731725106808823, 2.8731725106808823, 1.4062060621117483], [0.9961188190010248, 0.9961188190010248, 1.384188701648325], [1.6917509296955182, 1.6917509296955182, 1.395153949700342]]
+2026-11-16 10:18:59 TEST (not a result) N=12 +0 diffuse M=39.7665: size=1365 kept=1083 E_j-E_th (j=0..k+1) = -6.0934e-02, -1.8641e-02, -3.7097e-05, 8.6709e-04 (build 3s, total 5s)
+2026-11-16 10:22:15 TEST (not a result) N=16 +5 diffuse M=39.45: size=6579 kept=4273 E_j-E_th (j=0..k+1) = -6.0760e-02, -1.8420e-02, -1.4818e-05, 1.3984e-08 (build 66s, total 178s)
+2026-11-16 14:23:27 === run_map.py --target J1v2 stages=[1, 2, 3, 4, 5] threads=5
+2026-11-16 14:23:27 stage 1 finished (0s)
+2026-11-16 14:23:31 stage2 compact N=12: size=1365 kept=1083 lam_min/lam_max=-4.0e-16 tol=1e-12 margin=0 M*=39.5256494848 gap_below=-1.85e-02 (1s; build 4s)
+2026-11-16 14:23:42 stage2 compact N=14: size=2040 kept=1569 lam_min/lam_max=-1.7e-16 tol=1e-12 margin=0 M*=39.4520098192 gap_below=-1.84e-02 (2s; build 8s)
+2026-11-16 14:24:03 stage2 compact N=16: size=2907 kept=2180 lam_min/lam_max=-6.6e-16 tol=1e-12 margin=0 M*=39.4109156775 gap_below=-1.84e-02 (5s; build 16s)
+2026-11-16 14:24:46 stage2 compact N=18: size=3990 kept=2919 lam_min/lam_max=-2.8e-15 tol=1e-12 margin=0 M*=39.3836265726 gap_below=-1.84e-02 (15s; build 27s)
+2026-11-16 14:24:46 stage 2 finished (79s)
+2026-11-16 14:25:13 stage3 compact N=16 + 1 diffuse: size=3297 kept=2386 lam_min/lam_max=-5.0e-16 tol=1e-12 margin=0 M*=39.3191368182 gap_below=-1.83e-02 (6s; build 21s)
+2026-11-16 14:25:57 stage3 compact N=16 + 2 diffuse: size=3807 kept=2667 lam_min/lam_max=-5.0e-16 tol=1e-12 margin=0 M*=39.3089487800 gap_below=-1.83e-02 (17s; build 27s)
+2026-11-16 14:26:57 stage3 compact N=16 + 3 diffuse: size=4521 kept=3145 lam_min/lam_max=-7.4e-16 tol=1e-12 margin=0 M*=39.3086361518 gap_below=-1.83e-02 (24s; build 36s)
+2026-11-16 14:28:38 stage3 compact N=16 + 4 diffuse: size=5403 kept=3585 lam_min/lam_max=-4.8e-16 tol=1e-12 margin=0 M*=39.3086244435 gap_below=-1.83e-02 (50s; build 51s)
+2026-11-16 14:30:53 === run_map.py --target J1v2 stages=[1, 2, 3, 4, 5] threads=5
+2026-11-16 14:30:53 stage 1 finished (0s)
+2026-11-16 14:30:53 stage 2 finished (0s)
+2026-11-16 14:33:14 stage3 compact N=16 + 5 diffuse: size=6579 kept=4273 lam_min/lam_max=-9.5e-16 tol=1e-12 margin=0 M*=39.3086240179 gap_below=-1.83e-02 (66s; build 76s)
+2026-11-16 14:33:14 stage 3 finished (142s)
+2026-11-16 14:36:26 stage4 compact N=16 + 5 diffuse: size=6579 kept=4273 lam_min/lam_max=-9.5e-16 tol=1e-12 margin=1e-11 M*=39.3086241305 gap_below=-1.83e-02 (115s; build 76s)
+2026-11-16 14:38:04 stage4 compact N=16 + 5 diffuse: size=6579 kept=4048 lam_min/lam_max=-9.5e-16 tol=1e-10 margin=0 M*=39.3086240281 gap_below=-1.83e-02 (98s; build 76s)
+2026-11-16 14:38:59 stage4 compact N=16 + 5 diffuse: size=6579 kept=4048 lam_min/lam_max=-9.5e-16 tol=1e-10 margin=1e-11 M*=39.3086241408 gap_below=-1.83e-02 (55s; build 76s)
+2026-11-16 14:41:05 stage4 compact N=14 + 5 diffuse: size=5712 kept=3709 lam_min/lam_max=-8.7e-16 tol=1e-12 margin=0 M*=39.3086240190 gap_below=-1.83e-02 (69s; build 57s)
+2026-11-16 14:45:28 stage4 compact N=18 + 5 diffuse: size=7662 kept=4983 lam_min/lam_max=-1.8e-15 tol=1e-12 margin=0 M*=39.3086240178 gap_below=-1.83e-02 (161s; build 102s)
+2026-11-16 14:45:28 stage 4 finished (734s)
+2026-11-16 14:47:08 stage5 M=39.32827833 E_th-E_k=1.855113e-06 (27s)
+2026-11-16 14:47:11 stage5 M=39.34793264 E_th-E_k=3.807602e-06 (2s)
+2026-11-16 14:47:13 stage5 M=39.38724127 E_th-E_k=7.898580e-06 (2s)
+2026-11-16 14:47:15 stage5 M=39.50516714 E_th-E_k=2.121791e-05 (2s)
+2026-11-16 14:47:17 stage5 M=39.70171026 E_th-E_k=4.594839e-05 (2s)
+2026-11-16 14:47:19 stage5 M=40.09479650 E_th-E_k=1.024621e-04 (2s)
+2026-11-16 14:47:21 stage5 M=41.27405522 E_th-E_k=3.126950e-04 (2s)
+2026-11-16 14:47:22 stage5 M=43.23948642 E_th-E_k=7.587020e-04 (2s)
+2026-11-16 14:47:24 stage5 M=47.17034882 E_th-E_k=1.876256e-03 (2s)
+2026-11-16 14:47:24 stage 5 finished (116s)
+2026-11-16 14:47:24 ALL REQUESTED STAGES DONE (991s)

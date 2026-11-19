@@ -1,0 +1,4 @@
+  check: compact20 + 4 diffuse sets: size=4267 kept=3114 M*=4.2082831171 (190s)
+  check: compact16 + 4 diffuse sets: size=3465 kept=2417 M*=4.2082839605 (76s)
+  check: compact18 + 4 diffuse sets: size=3826 kept=2728 M*=4.2082834044 (83s)
+  check: compact22 + 4 diffuse sets: size=4796 kept=3590 M*=4.2082829707 (196s)

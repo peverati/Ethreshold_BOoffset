@@ -1,0 +1,7 @@
+J7v0 summary (threshold_map_L7hp, 2026-11-17):
+
+* Accepted crossings (tol 1e-14, double-double assembly, single-pass orthogonalization; every row passed run 6's crossing-slope guard (c): gap(M*(1-1e-3)) ~ +1.5e-5..+4.7e-5, gap(M*(1+1e-3)) = -4.7e-5): compact N = 6..12: 87.5224238, 87.5215196, 87.5214751, 87.5214699 (monotone); N = 10 + 1/2 diffuse: 87.5214717, 87.5214716; N = 12 + 2 diffuse: 87.5214689.
+* Excluded: compact N = 8 + 2 diffuse (tol 1e-14): spurious level (bound at M = 86.25 although it is a subset of N = 10 + 2 diffuse; lam_min/lam_max = -3.1e-16). Cause: single-pass canonical orthogonalization at tol 1e-14 (diag_spurious.txt). With a second orthogonalization pass the same basis gives a normal crossing, 87.5215171.
+* Numerical cross-check: a complete rerun with two-pass orthogonalization (data_2pass/) reproduces every accepted crossing to <= 1e-7 for N >= 10 (3e-6 at N = 6). Two-pass is not used for the results (it fails validate_hp at tol 1e-14/1e-15).
+* **M_c(J7v0) = 87.521468 +/- 1e-6** (best bound 87.5214689 minus the geometric compact-size correction 6.7e-7, ratio 0.115; error = compact correction + last diffuse increment 1e-7 + numerical cross-check 1e-7). **Certified bound** (margin 1e-11 Eh at the standard tol 1e-14, N = 10 + 2 diffuse): 87.5214716. tol 1e-12 check: 87.5218653 (+3.9e-4, truncation; looser but valid bound).
+* Blind test: frozen prediction 87.5223 +/- 0.0295 (PREDICTION_MAP.md, hash OK): exact - pred = -0.0008: **PASS**.

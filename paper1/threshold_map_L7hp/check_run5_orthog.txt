@@ -1,0 +1,4 @@
+# check_run5_orthog.py: run-5 standard largest bases, tol 1e-12, single vs two-pass orthogonalization
+J2v1 'compact N=16 + 3 diffuse' size=6216 kept=4061: single-pass max|X^T S X - I| = 2.4e-03 (eig 0.997533..1.002484); M* single 27.6972470555 (production 27.6972470555), two-pass 27.6972470555, shift +1.14e-11
+J5v0 'compact N=12 + 2 diffuse' size=5430 kept=3855: single-pass max|X^T S X - I| = 5.5e-03 (eig 0.991572..1.006026); M* single 49.1153803378 (production 49.1153803378), two-pass 49.1153803378, shift +7.60e-11
+J6v1 'compact N=10 + 2 diffuse' size=5638 kept=3531: single-pass max|X^T S X - I| = 4.3e-03 (eig 0.993496..1.005526); M* single 97.4167766625 (production 97.4167766613), two-pass 97.4167766620, shift -4.28e-10

@@ -1,0 +1,32 @@
+# entanglement fits and features
+*Last updated: 2026-11-13*
+
+## Convergence (max over M of |base - fine| quadrature, |N - (N-4)| basis, l-tail estimate)
+S         quad max 1.22e-05  basis max 2.48e-07
+S_orient  quad max 1.02e-05  basis max 1.15e-07
+S_rad     quad max 2.06e-06  basis max 1.34e-07
+E_N       quad max 5.69e-03  basis max 8.83e-04
+MI        quad max 1.75e-06  basis max 4.25e-08
+l-tail estimate of S (w_l ~ l^-6 beyond lmax): max 1.04e-05
+
+## Large-M behaviour (window M >= 500 for fits; local slopes over the whole M >= 20 range)
+S - S_orient_inf: exponent in kappa 1.828 +- 0.001, prefactor 1.533;  local slopes 1.872 1.864 1.851 1.838 1.830 1.826 1.826 1.828 1.831
+S_orient - S_orient_inf: exponent in kappa 2.027 +- 0.003, prefactor 0.9525;  local slopes 2.125 2.121 2.105 2.083 2.060 2.043 2.032 2.023 2.015
+S_rad: exponent in kappa 1.681 +- 0.007, prefactor 0.6645;  local slopes 1.562 1.569 1.582 1.601 1.626 1.650 1.669 1.687 1.707
+S_0: exponent in kappa 1.683 +- 0.008, prefactor 0.6108;  local slopes 1.479 1.509 1.543 1.579 1.616 1.647 1.669 1.689 1.711
+p2 (2nd Schmidt coeff of l=0 block): exponent in kappa 1.957 +- 0.005, prefactor 0.1547;  local slopes 1.689 1.745 1.804 1.856 1.899 1.930 1.948 1.963 1.975
+E_N (radial log-negativity): exponent in kappa 1.039 +- 0.001, prefactor 0.9395;  local slopes 1.107 1.095 1.078 1.062 1.053 1.046 1.042 1.038 1.034
+MI(|R|;|rho|): exponent in kappa 1.995 +- 0.000, prefactor 0.3699;  local slopes 2.113 2.072 2.035 2.010 1.999 1.995 1.994 1.995 1.996
+S_orient_inf (electronic sigma_g partial waves at R_e = 1.99719) = 0.249338007
+
+## Extrema / inflections on the M grid (cubic spline in ln M; grid-resolved only)
+(spline through 49 masses: scan grid + dense [0.25, 0.275, 0.3, 0.325, 0.35, 0.375, 0.4, 0.425, 0.45, 0.475, 0.4924, 0.5, 0.525, 0.55, 0.575, 0.6])
+S: extrema M=0.414 (max, S=1.604029); inflections at M = 0.155, 2.79
+S_lin: extrema M=0.445 (max, S_lin=0.500687); inflections at M = 0.167, 3.68
+S_orient: extrema M=0.433 (max, S_orient=1.107497); inflections at M = 0.164, 2.74
+S_rad: extrema M=0.369 (max, S_rad=0.496966); inflections at M = 0.135, 2.91
+S_0: extrema M=0.387 (max, S_0=0.382396); inflections at M = 0.143, 3.84
+w0: extrema M=0.460 (min, w0=0.777404); inflections at M = 0.182, 2.8
+E_N: extrema M=0.305 (max, E_N=0.974681), M=0.310 (min, E_N=0.974679), M=0.353 (max, E_N=0.975729); inflections at M = 0.177, 0.272, 0.277, 0.308, 0.335, 0.369, 0.381, 0.409, 0.437, 0.47, 0.481, 0.512, 0.537, 0.602, 0.632, 0.696, 0.749, 0.827, 0.935, 1.04, 1.08, 3.24
+MI: extrema M=0.357 (max, MI=0.403565); inflections at M = 0.131, 2.3
+D90: extrema M=0.475 (min, D90=0.704725); inflections at M = 0.19, 3.02

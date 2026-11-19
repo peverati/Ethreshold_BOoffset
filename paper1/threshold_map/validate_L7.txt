@@ -1,0 +1,9 @@
+# validate_L.py 2026-11-16 19:49: H2+ M=1836.15267247, alphas (9.95811007, 9.95811007, 1.42227562), weights (1,1,2), N=20; L = [7]
+J=0: E_ref = -0.5971390630794  E_BO+ad = -0.5971385415539  delta_ref = -5.21525e-07
+J=1: E_ref = -0.5968737387847  E_BO+ad = -0.5968732066241  delta_ref = -5.32161e-07
+J=2: E_ref = -0.5963452054891  E_BO+ad = -0.5963446520938  delta_ref = -5.53395e-07
+J=3: E_ref = -0.5955576389803  E_BO+ad = -0.5955570538194  delta_ref = -5.85161e-07
+J=4: E_ref = -0.5945171690606  E_BO+ad = -0.5945165418846  delta_ref = -6.27176e-07
+quadratic fit of delta_ref(x), J=0..4: coefficients [ 2.37508537e-12 -5.33082563e-09 -5.21514476e-07], max residual 1.9e-11
+L=7: E_exact N=16 (size 2100) -0.589910408873, N=20 (size 3784) -0.589894971712; E_BO+ad = -0.589964708878; delta = +6.97372e-05  extrapolated -8.12592e-07  diff +7.1e-05 (tol 4.6e-05)  FAIL  (292s)
+RESULT: FAIL

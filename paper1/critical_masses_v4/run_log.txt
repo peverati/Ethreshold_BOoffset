@@ -1,0 +1,76 @@
+2026-11-15 14:05:26 test standard alpha_s=0.0001 M=99.0: size=3330 kept=2745 E_4-E_th=-3.635270e-07 E_3-E_th=-5.203367e-03 (27s)
+2026-11-15 14:05:51 test compact3 alpha_s=0.0001 M=99.0: size=2805 kept=2562 E_4-E_th=-3.635270e-07 E_3-E_th=-5.203367e-03 (19s)
+2026-11-15 14:06:07 test compact3_noroot alpha_s=0.0001 M=99.0: size=2805 kept=2476 E_4-E_th=-3.635270e-07 E_3-E_th=-5.203367e-03 (15s)
+2026-11-15 14:06:32 test standard alpha_s=0.0001 M=98.4: size=3330 kept=2745 E_4-E_th=-1.096340029871e-08 E_3-E_th=-5.090490e-03 (19s)
+2026-11-15 14:06:47 test compact3_noroot alpha_s=0.0001 M=98.4: size=2805 kept=2476 E_4-E_th=-1.096382029608e-08 E_3-E_th=-5.090490e-03 (14s)
+2026-11-15 14:07:24 test diffuse nd=70, nd2=45 alpha_s=0.0001 M=98.4: size=3855 kept=3244 E_4-E_th=-1.096377977294e-08 E_3-E_th=-5.090490e-03 (36s)
+2026-11-15 14:07:43 === run_exact.py --dry  threads=8
+2026-11-15 14:07:43 config {"M_ref": 99.0, "compact": [[4.472, 1.365], [2.3, 1.25], [1.2, 1.15], [0.717, 1.104]], "M_lo": 97.0, "M_hi": 99.5}  ladder [0.01, 0.003, 0.001, 0.0003, 0.0001, 5e-05]  deltas [0.003, 0.005, 0.01, 0.02, 0.03, 0.05, 0.1, 0.2, 0.3, 0.5, 0.75, 1.0]
+2026-11-15 14:08:19 calibration (alpha_s=1e-4, n=3330, kept=2745): build 10s, project 23s, one eigensolve 2.0s;  E_4 - E_th at M=99: -3.635e-07
+2026-11-15 14:08:19   check 'compact N=20': size 4172 (x2.0 cost), peak memory ~2.2 GB
+2026-11-15 14:08:19   check 'diffuse nc=6': size 4396 (x2.3 cost), peak memory ~2.5 GB
+2026-11-15 14:08:19   check 'diffuse nd=70, nd2=45': size 3855 (x1.6 cost), peak memory ~1.9 GB
+2026-11-15 14:08:19 done so far: crossings 0, energies 0, checks 0, bounds 0 rows (done rows are skipped)
+2026-11-15 14:08:19 stage 1: estimated 8 min (before skipping done rows)
+2026-11-15 14:08:19 stage 2: estimated 7 min (before skipping done rows)
+2026-11-15 14:08:19 stage 3: estimated 14 min (before skipping done rows)
+2026-11-15 14:08:19 stage 4: estimated 13 min (before skipping done rows)
+2026-11-15 14:08:19 TOTAL estimated 0.7 h; peak memory standard basis ~1.4 GB
+2026-11-15 14:13:20 === run_exact.py --dry  threads=8
+2026-11-15 14:13:20 config {"M_ref": 99.0, "compact": [[4.472, 1.365], [2.3, 1.25], [1.2, 1.15], [0.717, 1.104]], "M_lo": 97.0, "M_hi": 99.5}  ladder [0.01, 0.003, 0.001, 0.0003, 0.0001, 5e-05, 3e-05]  deltas [0.003, 0.005, 0.01, 0.02, 0.03, 0.05, 0.1, 0.2, 0.3, 0.5, 0.75, 1.0]
+2026-11-15 14:13:41 calibration (alpha_s=1e-4, n=3330, kept=2745): build 11s, project 9s, one eigensolve 1.0s;  E_4 - E_th at M=99: -3.635e-07
+2026-11-15 14:13:41   check 'compact N=20': size 4172 (x2.0 cost), peak memory ~2.2 GB
+2026-11-15 14:13:41   check 'compact N=20 all': size 5014 (x3.4 cost), peak memory ~3.2 GB
+2026-11-15 14:13:41   check 'diffuse nc=6': size 4396 (x2.3 cost), peak memory ~2.5 GB
+2026-11-15 14:13:41   check 'diffuse nd=70, nd2=45': size 3855 (x1.6 cost), peak memory ~1.9 GB
+2026-11-15 14:13:41 done so far: crossings 0, energies 0, checks 0, bounds 0 rows (done rows are skipped)
+2026-11-15 14:13:41 stage 1: estimated 5 min (before skipping done rows)
+2026-11-15 14:13:41 stage 2: estimated 4 min (before skipping done rows)
+2026-11-15 14:13:41 stage 3: estimated 11 min (before skipping done rows)
+2026-11-15 14:13:41 stage 4: estimated 6 min (before skipping done rows)
+2026-11-15 14:13:41 TOTAL estimated 0.4 h; peak memory standard basis ~1.4 GB
+2026-11-15 14:33:27 === run_exact.py stages=[1, 2, 3, 4] threads=8
+2026-11-15 14:35:35 stage1 alpha_s=0.01 size=3330 kept=2427 M*=98.277893586 (128s)
+2026-11-15 14:36:26 stage1 alpha_s=0.003 size=3330 kept=2593 M*=98.269245202 (51s)
+2026-11-15 14:37:25 stage1 alpha_s=0.001 size=3330 kept=2682 M*=98.266758073 (59s)
+2026-11-15 14:40:44 stage1 alpha_s=0.0003 size=3330 kept=2730 M*=98.265888748 (199s)
+2026-11-15 14:43:01 stage1 alpha_s=0.0001 size=3330 kept=2745 M*=98.265537034 (137s)
+2026-11-15 14:43:54 stage1 alpha_s=5e-05 size=3330 kept=2745 M*=98.250000300 (52s)
+2026-11-15 14:44:24   alpha_s=3e-05: no sign change: f(97.0)=-2.243e-14, f(99.5)=-1.107e-06
+2026-11-15 14:44:24 stage1 alpha_s=3e-05 size=3330 kept=2745 M*=nan (30s)
+2026-11-15 14:44:24 stage 1 finished (657s)
+2026-11-15 14:44:53 stage2 alpha_s=0.01: 12 masses (29s)
+2026-11-15 14:45:21 stage2 alpha_s=0.003: 12 masses (28s)
+2026-11-15 14:45:49 stage2 alpha_s=0.001: 12 masses (29s)
+2026-11-15 14:46:33 stage2 alpha_s=0.0003: 12 masses (43s)
+2026-11-15 14:47:14 stage2 alpha_s=0.0001: 12 masses (41s)
+2026-11-15 14:47:48 stage2 alpha_s=5e-05: 12 masses (34s)
+2026-11-15 14:48:23 stage2 alpha_s=3e-05: 12 masses (35s)
+2026-11-15 14:48:23 stage 2 finished (239s)
+2026-11-15 14:48:57 stage3 reference alpha_s=0.001 done
+2026-11-15 14:49:35 stage3 reference alpha_s=0.0001 done
+2026-11-15 14:50:27 stage3 'compact N=20' alpha_s=0.001 size=4172 (52s)
+2026-11-15 14:52:50 stage3 'compact N=20' alpha_s=0.0001 size=4172 (143s)
+2026-11-15 14:54:16 stage3 'compact N=20 all' alpha_s=0.001 size=5014 (85s)
+2026-11-15 14:58:15 stage3 'compact N=20 all' alpha_s=0.0001 size=5014 (239s)
+2026-11-15 14:59:16 stage3 'diffuse nc=6' alpha_s=0.001 size=4396 (61s)
+2026-11-15 15:02:39 stage3 'diffuse nc=6' alpha_s=0.0001 size=4396 (203s)
+2026-11-15 15:03:23 stage3 'diffuse nd=70, nd2=45' alpha_s=0.001 size=3855 (44s)
+2026-11-15 15:05:07 stage3 'diffuse nd=70, nd2=45' alpha_s=0.0001 size=3855 (104s)
+2026-11-15 15:05:07 stage 3 finished (1004s)
+2026-11-15 15:06:19 stage4 standard tol=1e-12 margin=0: M_bound=98.265537034
+2026-11-15 15:06:42 stage4 standard tol=1e-12 margin=1e-11: M_bound=98.269625484
+2026-11-15 15:07:05 stage4 standard tol=1e-12 margin=1e-10: M_bound=98.278511937
+2026-11-15 15:07:50 stage4 standard tol=1e-10 margin=0: M_bound=98.265668128
+2026-11-15 15:08:24 stage4 standard tol=1e-10 margin=1e-11: M_bound=98.269638812
+2026-11-15 15:08:53 stage4 standard tol=1e-10 margin=1e-10: M_bound=98.278530094
+2026-11-15 15:08:53 stage4 'standard' done (227s)
+2026-11-15 15:11:19 stage4 diffuse nd=70, nd2=45 tol=1e-12 margin=0: M_bound=98.265220353
+2026-11-15 15:12:25 stage4 diffuse nd=70, nd2=45 tol=1e-12 margin=1e-11: M_bound=98.269622522
+2026-11-15 15:13:46 stage4 diffuse nd=70, nd2=45 tol=1e-12 margin=1e-10: M_bound=98.278511340
+2026-11-15 15:15:23 stage4 diffuse nd=70, nd2=45 tol=1e-10 margin=0: M_bound=98.265512427
+2026-11-15 15:16:07 stage4 diffuse nd=70, nd2=45 tol=1e-10 margin=1e-11: M_bound=98.269630714
+2026-11-15 15:17:12 stage4 diffuse nd=70, nd2=45 tol=1e-10 margin=1e-10: M_bound=98.278519661
+2026-11-15 15:17:12 stage4 'diffuse nd=70, nd2=45' done (499s)
+2026-11-15 15:17:13 stage 4 finished (726s)
+2026-11-15 15:17:13 ALL STAGES DONE (2626s)

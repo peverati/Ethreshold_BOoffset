@@ -1,0 +1,20 @@
+# validate_hp.py 2026-11-17 06:29: HP (double-double) assembly; jobs [(7, 1e-14), (7, 1e-15), (6, 1e-14)]; HP_NPROC=20
+L=7 tol=1e-14 N=12 size=1008 kept=781 lam_min/lam_max=-9.4e-17 E=-0.589906382077 E-E_BO+ad=+5.8327e-05 (build 14s)
+L=7 tol=1e-14 N=14 size=1488 kept=1142 lam_min/lam_max=-5.3e-17 E=-0.589954753323 E-E_BO+ad=+9.9556e-06 (build 34s)
+L=7 tol=1e-14 N=16 size=2100 kept=1597 lam_min/lam_max=-2.0e-16 E=-0.589963190807 E-E_BO+ad=+1.5181e-06 (build 83s)
+L=7 tol=1e-14 N=18 size=2860 kept=2159 lam_min/lam_max=-3.0e-16 E=-0.589964502694 E-E_BO+ad=+2.0618e-07 (build 167s)
+L=7 tol=1e-14 N=20 size=3784 kept=2832 lam_min/lam_max=-2.2e-16 E=-0.589964594412 E-E_BO+ad=+1.1447e-07 (build 304s)
+L=7 tol=1e-14: delta(N=20) = +1.14466e-07, extrapolated -8.12592e-07, diff +9.3e-07 (tol 4.3e-06); monotone in N: True  -> PASS
+L=7 tol=1e-15 N=12 size=1008 kept=825 lam_min/lam_max=-9.4e-17 E=-0.589928964709 E-E_BO+ad=+3.5744e-05 (build 13s)
+L=7 tol=1e-15 N=14 size=1488 kept=1206 lam_min/lam_max=-5.3e-17 E=-0.589958898109 E-E_BO+ad=+5.8108e-06 (build 34s)
+L=7 tol=1e-15 N=16 size=2100 kept=1684 lam_min/lam_max=-2.0e-16 E=-0.589964121778 E-E_BO+ad=+5.8710e-07 (build 84s)
+L=7 tol=1e-15 N=18 size=2860 kept=2274 lam_min/lam_max=-3.0e-16 E=-0.589965182023 E-E_BO+ad=-4.7314e-07 (build 171s)
+L=7 tol=1e-15 N=20 size=3784 kept=2984 lam_min/lam_max=-2.2e-16 E=-0.589965359756 E-E_BO+ad=-6.5088e-07 (build 298s)
+L=7 tol=1e-15: delta(N=20) = -6.50878e-07, extrapolated -8.12592e-07, diff +1.6e-07 (tol 3.8e-06); monotone in N: True  -> PASS
+L=6 tol=1e-14 N=12 size=896 kept=755 lam_min/lam_max=-4.5e-16 E=-0.591669005949 E-E_BO+ad=+4.1117e-05 (build 10s)
+L=6 tol=1e-14 N=14 size=1320 kept=1103 lam_min/lam_max=-7.2e-17 E=-0.591704673536 E-E_BO+ad=+5.4490e-06 (build 23s)
+L=6 tol=1e-14 N=16 size=1860 kept=1540 lam_min/lam_max=-5.9e-17 E=-0.591709906245 E-E_BO+ad=+2.1626e-07 (build 51s)
+L=6 tol=1e-14 N=18 size=2530 kept=2079 lam_min/lam_max=-1.2e-16 E=-0.591710700748 E-E_BO+ad=-5.7824e-07 (build 105s)
+L=6 tol=1e-14 N=20 size=3344 kept=2731 lam_min/lam_max=-9.0e-17 E=-0.591710822656 E-E_BO+ad=-7.0015e-07 (build 200s)
+L=6 tol=1e-14: delta(N=20) = -7.00149e-07, extrapolated -7.41220e-07, diff +4.1e-08 (tol 2.8e-06); monotone in N: True  -> PASS
+RESULT: PASS

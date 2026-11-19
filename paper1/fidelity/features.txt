@@ -1,0 +1,9 @@
+window quantity kind  M(N)  M(N-4)  M(local quintic)  value  |deriv order 1,2 at point|
+w1 chi_sep  inflection  0.2442  0.2441  0.2442  0.00067277  d1=3.076e-04 d2=-2.931e-19
+w1 chiF     inflection  0.3377  0.3377  0.3377  0.77314758  d1=-3.069e-01 d2=-4.879e-18
+w7 chi_inv  inflection  1.3856  1.3856  1.3855  0.01465326  d1=1.493e-02 d2=-1.409e-18
+w7 chi_sep  inflection  1.4281  1.4281  1.4280  0.00967575  d1=1.203e-02 d2=1.979e-18
+w5 chi_inv  extremum  6.8945  6.8945  6.8945  0.02652677  d1=3.007e-20 d2=-3.821e-03
+w5 chi_sep  inflection  9.7781  9.7781  9.7817  0.02081137  d1=1.707e-03 d2=7.318e-19
+w6 chi_inv  extremum  25.0656  25.0656  25.0654  0.02585044  d1=-1.790e-19 d2=1.398e-03
+w6 chi_sep  inflection  42.9055  42.9055  42.8876  0.02386984  d1=2.344e-03 d2=8.640e-20

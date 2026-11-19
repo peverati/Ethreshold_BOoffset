@@ -1,0 +1,36 @@
+=== critical_mass.py states=[1] 2026-11-12 15:06:20
+  k=1 alpha_s=0.01 size=2130 kept=1777 M*=9.528295744 (141s)
+  k=1 alpha_s=0.003 size=2130 kept=1926 M*=9.526442707 (94s)
+  k=1 alpha_s=0.001 size=2130 kept=2007 M*=9.525905796 (28s)
+  k=1 alpha_s=0.0003 size=2130 kept=2050 M*=9.525715905 (149s)
+  k=1 alpha_s=0.0001 size=2130 kept=2055 M*=9.525661383 (36s)
+  k=1 alpha_s=3e-05 size=2130 kept=2055 M*=9.525759768 (27s)
+  k=1 mass grid done (527s so far)
+  k=1 check 'compact N=20' done (157s)
+  k=1 check 'diffuse nc=6' done (123s)
+  k=1 check 'diffuse nd=60, nd2=45' done (87s)
+state 1 finished in 940s
+=== critical_mass.py states=[2, 3] 2026-11-12 20:01:57
+  k=2 alpha_s=0.01 size=2655 kept=2155 M*=29.644493502 (44s)
+  k=2 alpha_s=0.003 size=2655 kept=2301 M*=29.640942222 (44s)
+  k=2 alpha_s=0.001 size=2655 kept=2384 M*=29.639912128 (55s)
+  k=2 alpha_s=0.0003 size=2655 kept=2426 M*=29.639548049 (59s)
+  k=2 alpha_s=0.0001 size=2655 kept=2432 M*=29.639444713 (63s)
+  k=2 alpha_s=3e-05 size=2655 kept=2432 M*=29.639638367 (62s)
+  k=2 mass grid done (416s so far)
+  k=2 check 'compact N=20' done (261s)
+  k=2 check 'diffuse nc=6' done (189s)
+  k=2 check 'diffuse nd=60, nd2=45' done (109s)
+state 2 finished in 1068s
+  k=3 alpha_s=0.01 size=2655 kept=2146 M*=59.327638532 (29s)
+  k=3 alpha_s=0.003 size=2655 kept=2293 M*=59.321388202 (37s)
+  k=3 alpha_s=0.001 size=2655 kept=2376 M*=59.319573830 (38s)
+  k=3 alpha_s=0.0003 size=2655 kept=2418 M*=59.318929761 (39s)
+  k=3 alpha_s=0.0001 size=2655 kept=2424 M*=59.318747517 (50s)
+  k=3 alpha_s=3e-05: no sign change: f(56.0)=-4.885e-15, f(60.0)=-1.458e-06
+  k=3 alpha_s=3e-05 size=2655 kept=2424 M*=nan (16s)
+  k=3 mass grid done (271s so far)
+  k=3 check 'compact N=20' done (255s)
+  k=3 check 'diffuse nc=6' done (162s)
+  k=3 check 'diffuse nd=60, nd2=45' done (112s)
+state 3 finished in 863s

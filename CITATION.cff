@@ -8,6 +8,7 @@ authors:
 license: MIT
 repository-code: "https://github.com/peverati/Ethreshold_BOoffset"
 version: "1.0.0"
+doi: 10.5281/zenodo.24398482
 date-released: "2026-11-19"
 keywords:
   - Born-Oppenheimer approximation

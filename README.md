@@ -6,6 +6,8 @@ Code and data for
 
 The repository contains the three in-house solvers used in the paper and, for every table and figure, the scripts and the result files they were made from. Everything is plain Python; no compiled code, no random numbers.
 
+Archived on Zenodo: [10.5281/zenodo.24398482](https://doi.org/10.5281/zenodo.24398482) (release v1.0.0). Licences: code MIT (`LICENSE`), data CC BY 4.0 (`LICENSE-DATA`).
+
 ## Contents
 
 | folder | what it is |
